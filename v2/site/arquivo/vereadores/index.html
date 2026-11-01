@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vereadores — Analândia em Dados</title>
+    <link rel="stylesheet" href="../../css/tokens.css?v=7">
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+    <header class="site-header">
+      <div class="wrap header-bar">
+        <div class="identidade">
+          <a class="brand" href="../../">Analândia em Dados</a>
+        </div>
+        <nav class="nav" aria-label="Voltar">
+          <ul>
+            <li><a href="../../">Voltar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="conteudo">
+      <div class="wrap">
+        <h1>Vereadores</h1>
+        <p class="lede">Candidatos a vereador em 2024 no cadastro do TSE. A ordem é a do cadastro: mais votos nominais primeiro.</p>
+        <section class="arquivo-bloco" aria-labelledby="titulo-eleitos">
+          <h2 id="titulo-eleitos">Eleitos</h2>
+          <ul class="itens" id="lista-eleitos"></ul>
+        </section>
+        <section class="arquivo-bloco" aria-labelledby="titulo-suplentes">
+          <h2 id="titulo-suplentes">Suplentes</h2>
+          <ul class="itens" id="lista-suplentes"></ul>
+        </section>
+        <section class="arquivo-bloco" aria-labelledby="titulo-nao-eleitos">
+          <h2 id="titulo-nao-eleitos">Não eleitos</h2>
+          <ul class="itens" id="lista-nao-eleitos"></ul>
+        </section>
+        <p class="dialogo-erro" id="erro-lista" hidden>Não foi possível ler os vereadores.</p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Lista do TSE em <a href="https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos">DivulgaCandContas</a>. Coleta de 01/11/2026.</p>
+      </div>
+    </footer>
+    <script src="../../js/vereadores-lista.js"></script>
+  </body>
+</html>
