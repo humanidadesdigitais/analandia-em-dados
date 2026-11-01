@@ -1,0 +1,25 @@
+{
+  "municipio": {
+    "nome": "Analândia",
+    "codigo_ibge": "3502002",
+    "uf": "SP"
+  },
+  "fontes": {
+    "querido_diario": {
+      "nome": "Querido Diário",
+      "documentacao": "https://docs.queridodiario.ok.org.br/pt-br/latest/index.html",
+      "api": "https://api.queridodiario.org.br",
+      "coletado_em": "2026-10-26T18:57:35+00:00",
+      "territorio": {
+        "codigo_ibge": "3502002",
+        "nome": "Analândia",
+        "uf": "SP",
+        "nivel": "0",
+        "disponivel_desde": null,
+        "urls_publicacao": []
+      },
+      "total_diarios": 0,
+      "diarios": []
+    }
+  }
+}

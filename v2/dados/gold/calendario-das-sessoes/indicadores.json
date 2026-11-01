@@ -1,0 +1,123 @@
+{
+  "tema": "calendario-das-sessoes",
+  "por_ano": [
+    {
+      "exercicio": 2019,
+      "sessoes": 19,
+      "dias_recesso": 78,
+      "primeiro_semestre": 10,
+      "segundo_semestre": 9
+    },
+    {
+      "exercicio": 2020,
+      "sessoes": 19,
+      "dias_recesso": 47,
+      "primeiro_semestre": 10,
+      "segundo_semestre": 9
+    },
+    {
+      "exercicio": 2021,
+      "sessoes": 21,
+      "dias_recesso": 78,
+      "primeiro_semestre": 12,
+      "segundo_semestre": 9
+    },
+    {
+      "exercicio": 2022,
+      "sessoes": 19,
+      "dias_recesso": 78,
+      "primeiro_semestre": 10,
+      "segundo_semestre": 9
+    },
+    {
+      "exercicio": 2023,
+      "sessoes": 19,
+      "dias_recesso": 78,
+      "primeiro_semestre": 10,
+      "segundo_semestre": 9
+    },
+    {
+      "exercicio": 2024,
+      "sessoes": 19,
+      "dias_recesso": 108,
+      "primeiro_semestre": 10,
+      "segundo_semestre": 9
+    },
+    {
+      "exercicio": 2025,
+      "sessoes": 21,
+      "dias_recesso": 78,
+      "primeiro_semestre": 12,
+      "segundo_semestre": 9
+    },
+    {
+      "exercicio": 2026,
+      "sessoes": 19,
+      "dias_recesso": 78,
+      "primeiro_semestre": 10,
+      "segundo_semestre": 9
+    }
+  ],
+  "por_mes": [
+    {
+      "mes": 1,
+      "nome": "Janeiro",
+      "sessoes": 4
+    },
+    {
+      "mes": 2,
+      "nome": "Fevereiro",
+      "sessoes": 16
+    },
+    {
+      "mes": 3,
+      "nome": "Março",
+      "sessoes": 16
+    },
+    {
+      "mes": 4,
+      "nome": "Abril",
+      "sessoes": 16
+    },
+    {
+      "mes": 5,
+      "nome": "Maio",
+      "sessoes": 16
+    },
+    {
+      "mes": 6,
+      "nome": "Junho",
+      "sessoes": 16
+    },
+    {
+      "mes": 7,
+      "nome": "Julho",
+      "sessoes": 0
+    },
+    {
+      "mes": 8,
+      "nome": "Agosto",
+      "sessoes": 16
+    },
+    {
+      "mes": 9,
+      "nome": "Setembro",
+      "sessoes": 16
+    },
+    {
+      "mes": 10,
+      "nome": "Outubro",
+      "sessoes": 16
+    },
+    {
+      "mes": 11,
+      "nome": "Novembro",
+      "sessoes": 16
+    },
+    {
+      "mes": 12,
+      "nome": "Dezembro",
+      "sessoes": 8
+    }
+  ]
+}

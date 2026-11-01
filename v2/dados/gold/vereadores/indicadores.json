@@ -1,0 +1,91 @@
+{
+  "tema": "vereadores",
+  "sexo": [
+    {
+      "rotulo": "Homens",
+      "quantidade": 46
+    },
+    {
+      "rotulo": "Mulheres",
+      "quantidade": 23
+    }
+  ],
+  "partidos": [
+    {
+      "partido": "MDB",
+      "quantidade": 10
+    },
+    {
+      "partido": "PDT",
+      "quantidade": 10
+    },
+    {
+      "partido": "PODE",
+      "quantidade": 10
+    },
+    {
+      "partido": "PP",
+      "quantidade": 10
+    },
+    {
+      "partido": "SOLIDARIEDADE",
+      "quantidade": 10
+    },
+    {
+      "partido": "UNIÃO",
+      "quantidade": 10
+    },
+    {
+      "partido": "REPUBLICANOS",
+      "quantidade": 9
+    }
+  ],
+  "totalizacao_eleitos": [
+    {
+      "rotulo": "Eleito por QP",
+      "quantidade": 5
+    },
+    {
+      "rotulo": "Eleito por média",
+      "quantidade": 4
+    }
+  ],
+  "votos_eleitos": [
+    {
+      "nome_urna": "SERGINHO POLICIAL",
+      "votos_nominais": 346
+    },
+    {
+      "nome_urna": "ZÉ VIVALDINI",
+      "votos_nominais": 265
+    },
+    {
+      "nome_urna": "FERNANDO OMETO",
+      "votos_nominais": 200
+    },
+    {
+      "nome_urna": "NANDO",
+      "votos_nominais": 189
+    },
+    {
+      "nome_urna": "GIRIBI",
+      "votos_nominais": 185
+    },
+    {
+      "nome_urna": "JONE DA ESTAÇÃO",
+      "votos_nominais": 132
+    },
+    {
+      "nome_urna": "SAMUEL BISPO",
+      "votos_nominais": 124
+    },
+    {
+      "nome_urna": "ROBSON VIANA",
+      "votos_nominais": 98
+    },
+    {
+      "nome_urna": "MAGDA DO LUIZINHO",
+      "votos_nominais": 95
+    }
+  ]
+}

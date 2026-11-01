@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+v1/dados/bruto/*
+!v1/dados/bruto/.gitkeep
+
+.DS_Store
+Thumbs.db

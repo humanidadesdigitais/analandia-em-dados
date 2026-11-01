@@ -1,0 +1,51 @@
+{
+  "titulo": "Sessão Ordinária Nº13/2024",
+  "realizada_em": "2024-09-10",
+  "presencas": [
+    {
+      "nome": "Ciro João Bertoli",
+      "sigla": "PSB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Dirceu de Sousa",
+      "sigla": "MDB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Edivaldo Mistro",
+      "sigla": "PDT",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "João Carlos Barbosa Sodelli",
+      "sigla": "UNIAO",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Leandro Santarpio",
+      "sigla": "MDB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Rogerio Conceição dos Santos",
+      "sigla": "REPUBLICANOS",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "presenca": "Presente"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "titulo": "Sessão Ordinária Nº17/2023",
+  "realizada_em": "2023-11-14",
+  "presencas": [
+    {
+      "nome": "Ciro João Bertoli",
+      "sigla": "PSB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Dirceu de Sousa",
+      "sigla": "MDB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Edivaldo Mistro",
+      "sigla": "PDT",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Leandro Santarpio",
+      "sigla": "MDB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Rogerio Conceição dos Santos",
+      "sigla": "REPUBLICANOS",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "presenca": "Justificado"
+    },
+    {
+      "nome": "Valdemir Mascia",
+      "sigla": "UNIAO",
+      "presenca": "Presente"
+    }
+  ]
+}

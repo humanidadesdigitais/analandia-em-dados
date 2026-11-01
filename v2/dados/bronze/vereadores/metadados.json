@@ -1,0 +1,361 @@
+{
+  "tema": "vereadores",
+  "coletado_em": "2026-11-01T02:29:40+00:00",
+  "itens": [
+    {
+      "arquivo": "candidatos.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+      "bytes": 170242
+    },
+    {
+      "arquivo": "votacao_candidato_munzona_2024.zip",
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
+      "bytes": 48081800
+    },
+    {
+      "arquivo": "detalhes/250002123815.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002123815",
+      "bytes": 5974
+    },
+    {
+      "arquivo": "detalhes/250002283238.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283238",
+      "bytes": 4866
+    },
+    {
+      "arquivo": "detalhes/250002284389.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284389",
+      "bytes": 4912
+    },
+    {
+      "arquivo": "detalhes/250002284390.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284390",
+      "bytes": 5484
+    },
+    {
+      "arquivo": "detalhes/250001930335.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930335",
+      "bytes": 6291
+    },
+    {
+      "arquivo": "detalhes/250002283235.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283235",
+      "bytes": 4921
+    },
+    {
+      "arquivo": "detalhes/250001930334.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930334",
+      "bytes": 5066
+    },
+    {
+      "arquivo": "detalhes/250002284385.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284385",
+      "bytes": 5444
+    },
+    {
+      "arquivo": "detalhes/250002124673.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124673",
+      "bytes": 5283
+    },
+    {
+      "arquivo": "detalhes/250002124674.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124674",
+      "bytes": 5020
+    },
+    {
+      "arquivo": "detalhes/250002283233.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283233",
+      "bytes": 6840
+    },
+    {
+      "arquivo": "detalhes/250002123811.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002123811",
+      "bytes": 5662
+    },
+    {
+      "arquivo": "detalhes/250002283237.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283237",
+      "bytes": 5278
+    },
+    {
+      "arquivo": "detalhes/250001930399.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930399",
+      "bytes": 5258
+    },
+    {
+      "arquivo": "detalhes/250002283787.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283787",
+      "bytes": 5807
+    },
+    {
+      "arquivo": "detalhes/250001930391.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930391",
+      "bytes": 5211
+    },
+    {
+      "arquivo": "detalhes/250002124671.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124671",
+      "bytes": 7280
+    },
+    {
+      "arquivo": "detalhes/250002124672.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124672",
+      "bytes": 5032
+    },
+    {
+      "arquivo": "detalhes/250002123816.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002123816",
+      "bytes": 5901
+    },
+    {
+      "arquivo": "detalhes/250002124676.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124676",
+      "bytes": 5850
+    },
+    {
+      "arquivo": "detalhes/250001930337.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930337",
+      "bytes": 4790
+    },
+    {
+      "arquivo": "detalhes/250002283786.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283786",
+      "bytes": 5221
+    },
+    {
+      "arquivo": "detalhes/250001930331.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930331",
+      "bytes": 5387
+    },
+    {
+      "arquivo": "detalhes/250002283234.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283234",
+      "bytes": 5387
+    },
+    {
+      "arquivo": "detalhes/250002283241.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283241",
+      "bytes": 5407
+    },
+    {
+      "arquivo": "detalhes/250001930397.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930397",
+      "bytes": 5328
+    },
+    {
+      "arquivo": "detalhes/250002123814.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002123814",
+      "bytes": 5227
+    },
+    {
+      "arquivo": "detalhes/250002124670.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124670",
+      "bytes": 8753
+    },
+    {
+      "arquivo": "detalhes/250001930398.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930398",
+      "bytes": 5504
+    },
+    {
+      "arquivo": "detalhes/250001930395.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930395",
+      "bytes": 6031
+    },
+    {
+      "arquivo": "detalhes/250001930333.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930333",
+      "bytes": 4868
+    },
+    {
+      "arquivo": "detalhes/250002283785.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283785",
+      "bytes": 6783
+    },
+    {
+      "arquivo": "detalhes/250001930394.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930394",
+      "bytes": 6418
+    },
+    {
+      "arquivo": "detalhes/250002123818.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002123818",
+      "bytes": 5945
+    },
+    {
+      "arquivo": "detalhes/250002284388.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284388",
+      "bytes": 6132
+    },
+    {
+      "arquivo": "detalhes/250002123810.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002123810",
+      "bytes": 6443
+    },
+    {
+      "arquivo": "detalhes/250001930393.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930393",
+      "bytes": 5674
+    },
+    {
+      "arquivo": "detalhes/250001930392.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930392",
+      "bytes": 4733
+    },
+    {
+      "arquivo": "detalhes/250002283236.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283236",
+      "bytes": 4895
+    },
+    {
+      "arquivo": "detalhes/250002283784.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283784",
+      "bytes": 4930
+    },
+    {
+      "arquivo": "detalhes/250001930329.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930329",
+      "bytes": 5081
+    },
+    {
+      "arquivo": "detalhes/250002284387.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284387",
+      "bytes": 5811
+    },
+    {
+      "arquivo": "detalhes/250002283782.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283782",
+      "bytes": 5264
+    },
+    {
+      "arquivo": "detalhes/250002283781.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283781",
+      "bytes": 4899
+    },
+    {
+      "arquivo": "detalhes/250002283240.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283240",
+      "bytes": 4863
+    },
+    {
+      "arquivo": "detalhes/250002284393.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284393",
+      "bytes": 5101
+    },
+    {
+      "arquivo": "detalhes/250002124678.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124678",
+      "bytes": 5097
+    },
+    {
+      "arquivo": "detalhes/250002283780.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283780",
+      "bytes": 6974
+    },
+    {
+      "arquivo": "detalhes/250002284392.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284392",
+      "bytes": 4970
+    },
+    {
+      "arquivo": "detalhes/250002284386.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284386",
+      "bytes": 6171
+    },
+    {
+      "arquivo": "detalhes/250001930328.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930328",
+      "bytes": 4882
+    },
+    {
+      "arquivo": "detalhes/250002283239.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283239",
+      "bytes": 6056
+    },
+    {
+      "arquivo": "detalhes/250002283789.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283789",
+      "bytes": 5591
+    },
+    {
+      "arquivo": "detalhes/250002124677.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124677",
+      "bytes": 5432
+    },
+    {
+      "arquivo": "detalhes/250002123813.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002123813",
+      "bytes": 5425
+    },
+    {
+      "arquivo": "detalhes/250002123812.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002123812",
+      "bytes": 6614
+    },
+    {
+      "arquivo": "detalhes/250002124675.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124675",
+      "bytes": 5114
+    },
+    {
+      "arquivo": "detalhes/250002397936.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002397936",
+      "bytes": 4964
+    },
+    {
+      "arquivo": "detalhes/250002284384.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284384",
+      "bytes": 5611
+    },
+    {
+      "arquivo": "detalhes/250002284391.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002284391",
+      "bytes": 4896
+    },
+    {
+      "arquivo": "detalhes/250001930330.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930330",
+      "bytes": 5904
+    },
+    {
+      "arquivo": "detalhes/250002123817.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002123817",
+      "bytes": 5034
+    },
+    {
+      "arquivo": "detalhes/250002283242.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283242",
+      "bytes": 5610
+    },
+    {
+      "arquivo": "detalhes/250002283788.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283788",
+      "bytes": 7014
+    },
+    {
+      "arquivo": "detalhes/250001930336.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930336",
+      "bytes": 5177
+    },
+    {
+      "arquivo": "detalhes/250002283783.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002283783",
+      "bytes": 7212
+    },
+    {
+      "arquivo": "detalhes/250002124669.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250002124669",
+      "bytes": 6483
+    },
+    {
+      "arquivo": "detalhes/250001930332.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930332",
+      "bytes": 7279
+    },
+    {
+      "arquivo": "detalhes/250001930390.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/61395/2045202024/candidato/250001930390",
+      "bytes": 8773
+    }
+  ]
+}

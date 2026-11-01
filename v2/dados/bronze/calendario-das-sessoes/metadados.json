@@ -1,0 +1,71 @@
+{
+  "tema": "calendario-das-sessoes",
+  "fonte": "https://camaraanalandia.sp.gov.br/doc/?doc=1903",
+  "coletado_em": "2026-10-31T23:08:54+00:00",
+  "itens": [
+    {
+      "titulo": "Calendário das Sessões",
+      "arquivo": "7141.pdf",
+      "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/7141.pdf",
+      "data_documento": "2019-01-02",
+      "exercicio": null,
+      "bytes": 572195
+    },
+    {
+      "titulo": "Calendário das Sessões do Exercício de 2020",
+      "arquivo": "12207.pdf",
+      "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/12207.pdf",
+      "data_documento": "2019-12-31",
+      "exercicio": 2020,
+      "bytes": 538084
+    },
+    {
+      "titulo": "Calendário das Sessões do Exercício de 2021",
+      "arquivo": "20899.pdf",
+      "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/20899.pdf",
+      "data_documento": "2021-01-01",
+      "exercicio": 2021,
+      "bytes": 464553
+    },
+    {
+      "titulo": "Calendário das Sessões Legisaltivas do exercício de 2022",
+      "arquivo": "24964.pdf",
+      "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/24964.pdf",
+      "data_documento": "2022-01-05",
+      "exercicio": 2022,
+      "bytes": 110856
+    },
+    {
+      "titulo": "Calendário das Sessões Ordinárias - 2023",
+      "arquivo": "27564.pdf",
+      "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/27564.pdf",
+      "data_documento": "2023-01-02",
+      "exercicio": 2023,
+      "bytes": 453966
+    },
+    {
+      "titulo": "Calendário das Sessões Ordinárias - 2024",
+      "arquivo": "30912.pdf",
+      "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/30912.pdf",
+      "data_documento": "2024-02-06",
+      "exercicio": 2024,
+      "bytes": 466171
+    },
+    {
+      "titulo": "Calendário das Sessões Ordinárias - 2025",
+      "arquivo": "31803.pdf",
+      "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/31803.pdf",
+      "data_documento": "2025-01-03",
+      "exercicio": 2025,
+      "bytes": 376606
+    },
+    {
+      "titulo": "Calendário das Sessões Ordinárias - 2026",
+      "arquivo": "33153.pdf",
+      "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/33153.pdf",
+      "data_documento": "2026-04-08",
+      "exercicio": 2026,
+      "bytes": 95012
+    }
+  ]
+}

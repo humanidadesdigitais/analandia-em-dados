@@ -1,0 +1,368 @@
+{
+  "tema": "audiencias-publicas",
+  "audiencias": [
+    {
+      "exercicio": 2019,
+      "tipo": "convite",
+      "peca": "LDO",
+      "data_documento": "2019-05-15",
+      "titulo": "Convite da Audiência Pública -LDO 2020-",
+      "origem": {
+        "arquivo": "8699.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/8699.pdf"
+      }
+    },
+    {
+      "exercicio": 2019,
+      "tipo": "ata",
+      "peca": null,
+      "data_documento": "2019-05-24",
+      "titulo": "Ata da Audiência Pública 01/2019",
+      "origem": {
+        "arquivo": "8867.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/8867.pdf"
+      }
+    },
+    {
+      "exercicio": 2019,
+      "tipo": "convite",
+      "peca": "LOA",
+      "data_documento": "2019-10-22",
+      "titulo": "Convite da Audiência Pública -LOA 2020-",
+      "origem": {
+        "arquivo": "11333.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/11333.pdf"
+      }
+    },
+    {
+      "exercicio": 2019,
+      "tipo": "ata",
+      "peca": "LOA",
+      "data_documento": "2019-11-05",
+      "titulo": "Ata da Audiência Pública da LOA para 2020",
+      "origem": {
+        "arquivo": "11277.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/11277.pdf"
+      }
+    },
+    {
+      "exercicio": 2019,
+      "tipo": "ata",
+      "peca": "LOA",
+      "data_documento": "2019-11-05",
+      "titulo": "Ata da Audiência Pública da LOA para 2020",
+      "origem": {
+        "arquivo": "11279.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/11279.pdf"
+      }
+    },
+    {
+      "exercicio": 2020,
+      "tipo": "convite",
+      "peca": "LDO",
+      "data_documento": "2020-06-09",
+      "titulo": "Convite da Audiência Pública -LDO 2021-",
+      "origem": {
+        "arquivo": "17111.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/17111.pdf"
+      }
+    },
+    {
+      "exercicio": 2020,
+      "tipo": "ata",
+      "peca": "LDO",
+      "data_documento": "2020-06-17",
+      "titulo": "Ata da Audiência Pública da LDO para 2021.",
+      "origem": {
+        "arquivo": "17583.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/17583.pdf"
+      }
+    },
+    {
+      "exercicio": 2020,
+      "tipo": "convite",
+      "peca": "LOA",
+      "data_documento": "2020-10-27",
+      "titulo": "Convite da Audiência Pública -LOA 2021-",
+      "origem": {
+        "arquivo": "19511.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/19511.pdf"
+      }
+    },
+    {
+      "exercicio": 2020,
+      "tipo": "ata",
+      "peca": "LOA",
+      "data_documento": "2020-11-17",
+      "titulo": "Ata da Audiência Pública da LOA para 2021",
+      "origem": {
+        "arquivo": "19739.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/19739.pdf"
+      }
+    },
+    {
+      "exercicio": 2021,
+      "tipo": "convite",
+      "peca": "LDO",
+      "data_documento": "2021-05-24",
+      "titulo": "Convite da Audiência Pública -LDO 2022-",
+      "origem": {
+        "arquivo": "22351.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/22351.pdf"
+      }
+    },
+    {
+      "exercicio": 2021,
+      "tipo": "ata",
+      "peca": "LDO",
+      "data_documento": "2021-06-07",
+      "titulo": "Ata da Audiência Pública da LDO -2022-",
+      "origem": {
+        "arquivo": "22519.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/22519.pdf"
+      }
+    },
+    {
+      "exercicio": 2021,
+      "tipo": "convite",
+      "peca": "PPA",
+      "data_documento": "2021-09-17",
+      "titulo": "Convite da Audiência Pública -PPA-2022-2025 2021-",
+      "origem": {
+        "arquivo": "24113.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/24113.pdf"
+      }
+    },
+    {
+      "exercicio": 2021,
+      "tipo": "ata",
+      "peca": "PPA",
+      "data_documento": "2021-10-14",
+      "titulo": "Ata da Audiência Pública nº02-2021 -PPA 2022-2025-",
+      "origem": {
+        "arquivo": "24369.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/24369.pdf"
+      }
+    },
+    {
+      "exercicio": 2021,
+      "tipo": "convite",
+      "peca": "LOA",
+      "data_documento": "2021-11-12",
+      "titulo": "Convite da Audiência Pública da LOA-2022-",
+      "origem": {
+        "arquivo": "24564.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/24564.pdf"
+      }
+    },
+    {
+      "exercicio": 2021,
+      "tipo": "ata",
+      "peca": "LOA",
+      "data_documento": "2021-11-29",
+      "titulo": "Ata da Audiência Pública da LOA para 2022",
+      "origem": {
+        "arquivo": "24656.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/24656.pdf"
+      }
+    },
+    {
+      "exercicio": 2022,
+      "tipo": "convite",
+      "peca": "LDO",
+      "data_documento": "2022-06-09",
+      "titulo": "Convite da Audiência Pública da LDO para 2023",
+      "origem": {
+        "arquivo": "26065.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/26065.pdf"
+      }
+    },
+    {
+      "exercicio": 2022,
+      "tipo": "ata",
+      "peca": "LDO",
+      "data_documento": "2022-06-09",
+      "titulo": "Ata da Audiência Pública da LDO -2023-",
+      "origem": {
+        "arquivo": "26171.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/26171.pdf"
+      }
+    },
+    {
+      "exercicio": 2022,
+      "tipo": "convite",
+      "peca": "LOA",
+      "data_documento": "2022-10-26",
+      "titulo": "Convite da Audiência Pública para Orçamento de 2023- LOA-2023-",
+      "origem": {
+        "arquivo": "27183.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/27183.pdf"
+      }
+    },
+    {
+      "exercicio": 2022,
+      "tipo": "ata",
+      "peca": "LOA",
+      "data_documento": "2022-11-10",
+      "titulo": "Ata da Audiência Pública da Lei Orçamentária -LOA 2023-",
+      "origem": {
+        "arquivo": "27264.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/27264.pdf"
+      }
+    },
+    {
+      "exercicio": 2023,
+      "tipo": "convite",
+      "peca": "LDO",
+      "data_documento": "2023-06-15",
+      "titulo": "Convite da Audiência Pública daLDO para 2024",
+      "origem": {
+        "arquivo": "28508.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/28508.pdf"
+      }
+    },
+    {
+      "exercicio": 2023,
+      "tipo": "ata",
+      "peca": "LDO",
+      "data_documento": "2023-06-22",
+      "titulo": "Ata da Audiência Pública da LDO -2024--",
+      "origem": {
+        "arquivo": "28577.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/28577.pdf"
+      }
+    },
+    {
+      "exercicio": 2023,
+      "tipo": "convite",
+      "peca": null,
+      "data_documento": "2023-11-08",
+      "titulo": "Convite para audiência Pública",
+      "origem": {
+        "arquivo": "29864.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/29864.pdf"
+      }
+    },
+    {
+      "exercicio": 2023,
+      "tipo": "ata",
+      "peca": "LOA",
+      "data_documento": "2023-12-07",
+      "titulo": "Ata da Audiência Pública - LOA para 2024",
+      "origem": {
+        "arquivo": "29865.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/29865.pdf"
+      }
+    },
+    {
+      "exercicio": 2024,
+      "tipo": "convite",
+      "peca": "LDO",
+      "data_documento": "2024-06-03",
+      "titulo": "Convite da audiência Pública para LDO de 2025",
+      "origem": {
+        "arquivo": "30867.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/30867.pdf"
+      }
+    },
+    {
+      "exercicio": 2024,
+      "tipo": "ata",
+      "peca": null,
+      "data_documento": "2024-07-31",
+      "titulo": "Ata da Audiência Pública para Exercício de 2024",
+      "origem": {
+        "arquivo": "31057.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/31057.pdf"
+      }
+    },
+    {
+      "exercicio": 2024,
+      "tipo": "convite",
+      "peca": "LOA",
+      "data_documento": "2024-11-07",
+      "titulo": "Convite da audiência Pública da LOA-2025",
+      "origem": {
+        "arquivo": "31624.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/31624.pdf"
+      }
+    },
+    {
+      "exercicio": 2024,
+      "tipo": "ata",
+      "peca": "LOA",
+      "data_documento": "2024-12-02",
+      "titulo": "Ata da Audiência Pública da LOA para 2025",
+      "origem": {
+        "arquivo": "31708.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/31708.pdf"
+      }
+    },
+    {
+      "exercicio": 2025,
+      "tipo": "convite",
+      "peca": "LDO",
+      "data_documento": "2025-05-23",
+      "titulo": "CONVITE PARA UDIÊNCIA PÚBLICA DA LDO",
+      "origem": {
+        "arquivo": "32274.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/32274.pdf"
+      }
+    },
+    {
+      "exercicio": 2025,
+      "tipo": "convite",
+      "peca": "PPA",
+      "data_documento": "2025-10-10",
+      "titulo": "Convite da Audiência do PPA -2026-2029",
+      "origem": {
+        "arquivo": "32650.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/32650.pdf"
+      }
+    },
+    {
+      "exercicio": 2025,
+      "tipo": "ata",
+      "peca": "PPA",
+      "data_documento": "2025-10-13",
+      "titulo": "Ata da Audiência Pública do PPA 2026-2029",
+      "origem": {
+        "arquivo": "32649.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/32649.pdf"
+      }
+    },
+    {
+      "exercicio": 2025,
+      "tipo": "ata",
+      "peca": "LOA",
+      "data_documento": "2025-10-24",
+      "titulo": "ATA DA AUDIÊNCIA PÚBLICA DA LOA P/2026",
+      "origem": {
+        "arquivo": "32692.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/32692.pdf"
+      }
+    },
+    {
+      "exercicio": 2026,
+      "tipo": "convite",
+      "peca": "LDO",
+      "data_documento": "2026-06-02",
+      "titulo": "convite da LDO para 2027",
+      "origem": {
+        "arquivo": "33386.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/33386.pdf"
+      }
+    },
+    {
+      "exercicio": 2026,
+      "tipo": "ata",
+      "peca": "LDO",
+      "data_documento": "2026-06-12",
+      "titulo": "Ata 01 da LDO para 2027",
+      "origem": {
+        "arquivo": "33384.pdf",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/33384.pdf"
+      }
+    }
+  ]
+}

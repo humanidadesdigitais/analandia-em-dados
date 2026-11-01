@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Metodologia — Analândia em Dados</title>
+    <link rel="stylesheet" href="../css/tokens.css">
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+    <header class="site-header">
+      <div class="wrap header-bar">
+        <a class="brand" href="../">Analândia em Dados</a>
+        <nav class="nav" aria-label="Seções">
+          <ul>
+            <li><a href="../cidade/">Cidade</a></li>
+            <li><a href="../politicos/">Políticos</a></li>
+            <li><a href="./" aria-current="page">Metodologia</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="conteudo">
+      <div class="wrap">
+        <h1>Metodologia</h1>
+        <p class="lede">Como os dados de Analândia saem de uma fonte pública e chegam a uma página. Nenhum número é criado aqui.</p>
+        <div class="prose">
+          <section>
+            <h2>Fontes públicas</h2>
+            <p>Cada número precisa apontar para uma fonte já publicada por um órgão. O catálogo inicial reúne a Câmara, o TSE, a transparência da Prefeitura, o Diário Oficial, o TCE-SP, o Querido Diário e o mapeamento das câmaras.</p>
+            <ul>
+              <li>SAPL e o portal da Câmara, para projetos, votos, atas e presenças</li>
+              <li>Dados abertos da Câmara, para folha, assessores e cota parlamentar</li>
+              <li>DivulgaCandContas e a Base dos Dados, para candidaturas, bens, doadores e resultados</li>
+              <li>Diário Oficial e Querido Diário, para leis, decretos, nomeações e contratos</li>
+              <li>Portal da Transparência, para receitas, despesas, fornecedores e salários</li>
+              <li>TCE-SP, para prestações de contas e relatórios de auditoria</li>
+              <li>DataSenado / Interlegis, para a estrutura da Câmara</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Da coleta à página</h2>
+            <p>O arquivo baixado e o arquivo que o site mostra ficam separados. O bruto não entra no Git. O organizado é o que outras pessoas revisam.</p>
+            <ol>
+              <li>Escolher uma fonte do catálogo e gravar o script em <code>coleta/fontes/</code>.</li>
+              <li>Guardar o download em <code>dados/bruto/</code>.</li>
+              <li>Gravar o resultado estável em <code>dados/organizado/cidade.json</code> ou <code>dados/organizado/politicos.json</code>.</li>
+              <li>Copiar esse resultado para <code>site/dados/</code>, que é a pasta que as páginas leem.</li>
+            </ol>
+            <p>O Querido Diário já tem script de coleta. A cópia do resultado para o site ainda não existe, então as seções seguem sem dados publicados.</p>
+          </section>
+          <section>
+            <h2>O que cada seção mostra</h2>
+            <p><a href="../cidade/">Cidade</a> reúne receitas, despesas e atos oficiais do município. <a href="../politicos/">Políticos</a> reúne votações, gastos de gabinete, candidaturas e bens declarados.</p>
+            <p>Se um arquivo ainda não foi publicado, a página diz isso. Ela não completa o vazio com exemplo.</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Os dados publicados aqui vêm de fontes públicas. O código está no repositório.</p>
+      </div>
+    </footer>
+  </body>
+</html>

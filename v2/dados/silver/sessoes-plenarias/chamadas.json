@@ -1,0 +1,5037 @@
+{
+  "tema": "sessoes-plenarias",
+  "chamadas": [
+    {
+      "sessao_id": 289,
+      "titulo": "Sessão Ordinária Nº17/2023",
+      "data": "14/11/2023 18:51",
+      "realizada_em": "2023-11-14",
+      "numero": 1,
+      "periodo": "19h32 até 10h19",
+      "origem": {
+        "arquivo": "chamadas/289/509.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/289/509.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Justificado",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 299,
+      "titulo": "Sessão Ordinária Nº18/2023",
+      "data": "28/11/2023 19:22",
+      "realizada_em": "2023-11-28",
+      "numero": 1,
+      "periodo": "19h25 até 19h31",
+      "origem": {
+        "arquivo": "chamadas/299/523.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/299/523.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 299,
+      "titulo": "Sessão Ordinária Nº18/2023",
+      "data": "28/11/2023 19:22",
+      "realizada_em": "2023-11-28",
+      "numero": 2,
+      "periodo": "19h31 até 23h15",
+      "origem": {
+        "arquivo": "chamadas/299/524.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/299/524.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 305,
+      "titulo": "Sessão Extraordinária Nº3/2023",
+      "data": "07/12/2023 19:15",
+      "realizada_em": "2023-12-07",
+      "numero": 1,
+      "periodo": "19h16 até 20h36",
+      "origem": {
+        "arquivo": "chamadas/305/535.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/305/535.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 312,
+      "titulo": "Sessão Ordinária Nº19/2023",
+      "data": "12/12/2023 19:14",
+      "realizada_em": "2023-12-12",
+      "numero": 1,
+      "periodo": "19h17 até 20h19",
+      "origem": {
+        "arquivo": "chamadas/312/546.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/312/546.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Justificado",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 334,
+      "titulo": "Sessão Ordinária Nº1/2024",
+      "data": "15/02/2024 18:27",
+      "realizada_em": "2024-02-15",
+      "numero": 1,
+      "periodo": "19h28 até 12h25",
+      "origem": {
+        "arquivo": "chamadas/334/577.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/334/577.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "Elaine Cristina Fernandes",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ELAINE CRISTINA FERNANDES CARVALHO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 340,
+      "titulo": "Sessão Ordinária Nº2/2024",
+      "data": "27/02/2024 19:23",
+      "realizada_em": "2024-02-27",
+      "numero": 1,
+      "periodo": "20h29 até 14h25",
+      "origem": {
+        "arquivo": "chamadas/340/585.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/340/585.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "Elaine Cristina Fernandes",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ELAINE CRISTINA FERNANDES CARVALHO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 348,
+      "titulo": "Sessão Ordinária Nº3/2024",
+      "data": "12/03/2024 19:20",
+      "realizada_em": "2024-03-12",
+      "numero": 1,
+      "periodo": "19h21 até 19h10",
+      "origem": {
+        "arquivo": "chamadas/348/600.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/348/600.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "Elaine Cristina Fernandes",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ELAINE CRISTINA FERNANDES CARVALHO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Ausente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 348,
+      "titulo": "Sessão Ordinária Nº3/2024",
+      "data": "12/03/2024 19:20",
+      "realizada_em": "2024-03-12",
+      "numero": 2,
+      "periodo": "19h12 até 19h47",
+      "origem": {
+        "arquivo": "chamadas/348/610.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/348/610.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "Elaine Cristina Fernandes",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ELAINE CRISTINA FERNANDES CARVALHO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 368,
+      "titulo": "Sessão Ordinária Nº5/2024",
+      "data": "09/04/2024 19:01",
+      "realizada_em": "2024-04-09",
+      "numero": 1,
+      "periodo": "19h12 até 20h48",
+      "origem": {
+        "arquivo": "chamadas/368/628.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/368/628.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "Elaine Cristina Fernandes",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ELAINE CRISTINA FERNANDES CARVALHO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 374,
+      "titulo": "Sessão Ordinária Nº6/2024",
+      "data": "23/04/2024 19:00",
+      "realizada_em": "2024-04-23",
+      "numero": 1,
+      "periodo": "19h11 até 20h49",
+      "origem": {
+        "arquivo": "chamadas/374/636.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/374/636.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "Elaine Cristina Fernandes",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ELAINE CRISTINA FERNANDES CARVALHO"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        },
+        {
+          "nome": "Valdemir Mascia",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": null
+        }
+      ]
+    },
+    {
+      "sessao_id": 386,
+      "titulo": "Sessão Ordinária Nº7/2024",
+      "data": "14/05/2024 19:30",
+      "realizada_em": "2024-05-14",
+      "numero": 1,
+      "periodo": "19h31 até 22h47",
+      "origem": {
+        "arquivo": "chamadas/386/655.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/386/655.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 391,
+      "titulo": "Sessão Ordinária Nº8/2024",
+      "data": "28/05/2024 19:11",
+      "realizada_em": "2024-05-28",
+      "numero": 1,
+      "periodo": "19h19 até 23h15",
+      "origem": {
+        "arquivo": "chamadas/391/664.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/391/664.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 400,
+      "titulo": "Sessão Ordinária Nº9/2024",
+      "data": "11/06/2024 19:27",
+      "realizada_em": "2024-06-11",
+      "numero": 1,
+      "periodo": "19h28 até 20h46",
+      "origem": {
+        "arquivo": "chamadas/400/673.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/400/673.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 409,
+      "titulo": "Sessão Extraordinária Nº3/2024",
+      "data": "14/06/2024 19:13",
+      "realizada_em": "2024-06-14",
+      "numero": 1,
+      "periodo": "19h17 até 17h02",
+      "origem": {
+        "arquivo": "chamadas/409/685.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/409/685.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Ausente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 421,
+      "titulo": "Sessão Ordinária Nº10/2024",
+      "data": "25/06/2024 18:56",
+      "realizada_em": "2024-06-25",
+      "numero": 1,
+      "periodo": "19h12 até 21h48",
+      "origem": {
+        "arquivo": "chamadas/421/702.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/421/702.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 481,
+      "titulo": "Sessão Ordinária Nº11/2024",
+      "data": "13/08/2024 18:50",
+      "realizada_em": "2024-08-13",
+      "numero": 1,
+      "periodo": "19h21 até 23h42",
+      "origem": {
+        "arquivo": "chamadas/481/771.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/481/771.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 495,
+      "titulo": "Sessão Ordinária Nº12/2024",
+      "data": "27/08/2024 18:53",
+      "realizada_em": "2024-08-27",
+      "numero": 1,
+      "periodo": "19h19 até 22h08",
+      "origem": {
+        "arquivo": "chamadas/495/788.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/495/788.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 505,
+      "titulo": "Sessão Ordinária Nº13/2024",
+      "data": "10/09/2024 17:11",
+      "realizada_em": "2024-09-10",
+      "numero": 1,
+      "periodo": "19h20 até 21h20",
+      "origem": {
+        "arquivo": "chamadas/505/803.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/505/803.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 511,
+      "titulo": "Sessão Ordinária Nº14/2024",
+      "data": "24/09/2024 18:28",
+      "realizada_em": "2024-09-24",
+      "numero": 1,
+      "periodo": "19h19 até 21h57",
+      "origem": {
+        "arquivo": "chamadas/511/810.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/511/810.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 518,
+      "titulo": "Sessão Ordinária Nº15/2024",
+      "data": "08/10/2024 19:22",
+      "realizada_em": "2024-10-08",
+      "numero": 1,
+      "periodo": "19h25 até 10h21",
+      "origem": {
+        "arquivo": "chamadas/518/819.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/518/819.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 519,
+      "titulo": "Sessão Extraordinária Nº5/2024",
+      "data": "11/10/2024 17:59",
+      "realizada_em": "2024-10-11",
+      "numero": 1,
+      "periodo": "10h49 até 15h49",
+      "origem": {
+        "arquivo": "chamadas/519/820.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/519/820.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 524,
+      "titulo": "Sessão Ordinária Nº16/2024",
+      "data": "22/10/2024 18:43",
+      "realizada_em": "2024-10-22",
+      "numero": 1,
+      "periodo": "19h15 até 12h58",
+      "origem": {
+        "arquivo": "chamadas/524/828.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/524/828.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 541,
+      "titulo": "Sessão Ordinária Nº17/2024",
+      "data": "12/11/2024 19:08",
+      "realizada_em": "2024-11-12",
+      "numero": 1,
+      "periodo": "19h16 até 20h09",
+      "origem": {
+        "arquivo": "chamadas/541/849.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/541/849.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 554,
+      "titulo": "Sessão Ordinária Nº18/2024",
+      "data": "26/11/2024 19:03",
+      "realizada_em": "2024-11-26",
+      "numero": 1,
+      "periodo": "19h14 até 09h38",
+      "origem": {
+        "arquivo": "chamadas/554/865.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/554/865.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 567,
+      "titulo": "Sessão Extraordinária Nº6/2024",
+      "data": "10/12/2024 19:08",
+      "realizada_em": "2024-12-10",
+      "numero": 1,
+      "periodo": "19h13 até 15h07",
+      "origem": {
+        "arquivo": "chamadas/567/890.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/567/890.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 568,
+      "titulo": "Sessão Ordinária Nº19/2024",
+      "data": "10/12/2024 19:36",
+      "realizada_em": "2024-12-10",
+      "numero": 1,
+      "periodo": "19h36 até 11h04",
+      "origem": {
+        "arquivo": "chamadas/568/891.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/568/891.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Ciro João Bertoli",
+          "sigla": "PSB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Dirceu de Sousa",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Edivaldo Mistro",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "EDIVALDO ARGENTINO MISTRO"
+        },
+        {
+          "nome": "João Carlos Barbosa Sodelli",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "JOÃO CARLOS BARBOSA SODELLI"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Leandro Santarpio",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": null
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Rogerio Conceição dos Santos",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 582,
+      "titulo": "Sessão Ordinária Nº1/2025",
+      "data": "14/01/2025 19:22",
+      "realizada_em": "2025-01-14",
+      "numero": 1,
+      "periodo": "19h31 até 20h42",
+      "origem": {
+        "arquivo": "chamadas/582/908.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/582/908.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 589,
+      "titulo": "Sessão Ordinária Nº2/2025",
+      "data": "28/01/2025 19:01",
+      "realizada_em": "2025-01-28",
+      "numero": 1,
+      "periodo": "19h18 até 16h24",
+      "origem": {
+        "arquivo": "chamadas/589/919.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/589/919.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 593,
+      "titulo": "Sessão Ordinária Nº3/2025",
+      "data": "11/02/2025 19:08",
+      "realizada_em": "2025-02-11",
+      "numero": 1,
+      "periodo": "19h18 até 21h47",
+      "origem": {
+        "arquivo": "chamadas/593/926.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/593/926.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 602,
+      "titulo": "Sessão Extraordinária Nº2/2025",
+      "data": "18/02/2025 19:01",
+      "realizada_em": "2025-02-18",
+      "numero": 1,
+      "periodo": "11h08 até 11h28",
+      "origem": {
+        "arquivo": "chamadas/602/937.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/602/937.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 601,
+      "titulo": "Sessão Ordinária Nº4/2025",
+      "data": "25/02/2025 18:57",
+      "realizada_em": "2025-02-25",
+      "numero": 1,
+      "periodo": "19h12 até 11h02",
+      "origem": {
+        "arquivo": "chamadas/601/936.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/601/936.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 605,
+      "titulo": "Sessão Ordinária Nº5/2025",
+      "data": "11/03/2025 21:52",
+      "realizada_em": "2025-03-11",
+      "numero": 1,
+      "periodo": "22h20 até 00h04",
+      "origem": {
+        "arquivo": "chamadas/605/943.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/605/943.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 614,
+      "titulo": "Sessão Ordinária Nº6/2025",
+      "data": "25/03/2025 21:46",
+      "realizada_em": "2025-03-25",
+      "numero": 1,
+      "periodo": "22h14 até 23h49",
+      "origem": {
+        "arquivo": "chamadas/614/953.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/614/953.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 631,
+      "titulo": "Sessão Ordinária Nº7/2025",
+      "data": "08/04/2025 22:05",
+      "realizada_em": "2025-04-08",
+      "numero": 1,
+      "periodo": "22h11 até 23h32",
+      "origem": {
+        "arquivo": "chamadas/631/974.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/631/974.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 641,
+      "titulo": "Sessão Ordinária Nº8/2025",
+      "data": "22/04/2025 21:28",
+      "realizada_em": "2025-04-22",
+      "numero": 1,
+      "periodo": "22h15 até 23h17",
+      "origem": {
+        "arquivo": "chamadas/641/987.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/641/987.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 657,
+      "titulo": "Sessão Extraordinária Nº3/2025",
+      "data": "08/05/2025 21:47",
+      "realizada_em": "2025-05-08",
+      "numero": 1,
+      "periodo": "22h16 até 21h23",
+      "origem": {
+        "arquivo": "chamadas/657/1003.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/657/1003.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 660,
+      "titulo": "Sessão Ordinária Nº9/2025",
+      "data": "13/05/2025 22:16",
+      "realizada_em": "2025-05-13",
+      "numero": 1,
+      "periodo": "22h19 até 01h17",
+      "origem": {
+        "arquivo": "chamadas/660/1007.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/660/1007.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 665,
+      "titulo": "Sessão Ordinária Nº10/2025",
+      "data": "27/05/2025 22:03",
+      "realizada_em": "2025-05-27",
+      "numero": 1,
+      "periodo": "22h17 até 00h00",
+      "origem": {
+        "arquivo": "chamadas/665/1014.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/665/1014.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 685,
+      "titulo": "Sessão Ordinária Nº11/2025",
+      "data": "10/06/2025 22:04",
+      "realizada_em": "2025-06-10",
+      "numero": 1,
+      "periodo": "22h14 até 13h13",
+      "origem": {
+        "arquivo": "chamadas/685/1038.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/685/1038.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 726,
+      "titulo": "Sessão Ordinária Nº12/2025",
+      "data": "24/06/2025 21:53",
+      "realizada_em": "2025-06-24",
+      "numero": 1,
+      "periodo": "22h16 até 22h56",
+      "origem": {
+        "arquivo": "chamadas/726/1084.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/726/1084.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 760,
+      "titulo": "Sessão Extraordinária Nº4/2025",
+      "data": "30/06/2025 22:00",
+      "realizada_em": "2025-06-30",
+      "numero": 1,
+      "periodo": "22h15 até 20h16",
+      "origem": {
+        "arquivo": "chamadas/760/1118.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/760/1118.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 768,
+      "titulo": "Sessão Extraordinária Nº5/2025",
+      "data": "04/08/2025 20:42",
+      "realizada_em": "2025-08-04",
+      "numero": 1,
+      "periodo": "21h17 até 22h51",
+      "origem": {
+        "arquivo": "chamadas/768/1125.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/768/1125.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 774,
+      "titulo": "Sessão Ordinária Nº13/2025",
+      "data": "12/08/2025 21:58",
+      "realizada_em": "2025-08-12",
+      "numero": 1,
+      "periodo": "22h16 até 00h53",
+      "origem": {
+        "arquivo": "chamadas/774/1133.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/774/1133.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 779,
+      "titulo": "Sessão Ordinária Nº14/2025",
+      "data": "26/08/2025 22:09",
+      "realizada_em": "2025-08-26",
+      "numero": 1,
+      "periodo": "22h14 até 12h53",
+      "origem": {
+        "arquivo": "chamadas/779/1140.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/779/1140.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 785,
+      "titulo": "Sessão Ordinária Nº15/2025",
+      "data": "09/09/2025 22:08",
+      "realizada_em": "2025-09-09",
+      "numero": 1,
+      "periodo": "22h19 até 22h30",
+      "origem": {
+        "arquivo": "chamadas/785/1150.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/785/1150.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Ausente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 797,
+      "titulo": "Sessão Ordinária Nº16/2025",
+      "data": "23/09/2025 22:01",
+      "realizada_em": "2025-09-23",
+      "numero": 1,
+      "periodo": "22h11 até 17h45",
+      "origem": {
+        "arquivo": "chamadas/797/1164.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/797/1164.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 812,
+      "titulo": "Sessão Ordinária Nº17/2025",
+      "data": "14/10/2025 22:04",
+      "realizada_em": "2025-10-14",
+      "numero": 1,
+      "periodo": "22h20 até 23h11",
+      "origem": {
+        "arquivo": "chamadas/812/1184.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/812/1184.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 833,
+      "titulo": "Sessão Ordinária Nº18/2025",
+      "data": "29/10/2025 22:07",
+      "realizada_em": "2025-10-29",
+      "numero": 1,
+      "periodo": "22h15 até 11h58",
+      "origem": {
+        "arquivo": "chamadas/833/1214.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/833/1214.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 843,
+      "titulo": "Sessão Extraordinária Nº6/2025",
+      "data": "05/11/2025 21:10",
+      "realizada_em": "2025-11-05",
+      "numero": 1,
+      "periodo": "21h22 até 21h30",
+      "origem": {
+        "arquivo": "chamadas/843/1230.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/843/1230.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Ausente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 843,
+      "titulo": "Sessão Extraordinária Nº6/2025",
+      "data": "05/11/2025 21:10",
+      "realizada_em": "2025-11-05",
+      "numero": 2,
+      "periodo": "21h31 até 14h36",
+      "origem": {
+        "arquivo": "chamadas/843/1232.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/843/1232.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Ausente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 848,
+      "titulo": "Sessão Ordinária Nº19/2025",
+      "data": "11/11/2025 22:09",
+      "realizada_em": "2025-11-11",
+      "numero": 1,
+      "periodo": "22h16 até 23h53",
+      "origem": {
+        "arquivo": "chamadas/848/1237.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/848/1237.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 857,
+      "titulo": "Sessão Ordinária Nº20/2025",
+      "data": "25/11/2025 22:04",
+      "realizada_em": "2025-11-25",
+      "numero": 1,
+      "periodo": "22h19 até 15h46",
+      "origem": {
+        "arquivo": "chamadas/857/1248.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/857/1248.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 870,
+      "titulo": "Sessão Ordinária Nº21/2025",
+      "data": "09/12/2025 18:48",
+      "realizada_em": "2025-12-09",
+      "numero": 1,
+      "periodo": "19h16 até 20h15",
+      "origem": {
+        "arquivo": "chamadas/870/1269.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/870/1269.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 871,
+      "titulo": "Sessão Extraordinária Nº8/2025",
+      "data": "09/12/2025 20:16",
+      "realizada_em": "2025-12-09",
+      "numero": 1,
+      "periodo": "20h22 até 20h31",
+      "origem": {
+        "arquivo": "chamadas/871/1270.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/871/1270.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 883,
+      "titulo": "Sessão Extraordinária Nº1/2026",
+      "data": "27/01/2026 18:06",
+      "realizada_em": "2026-01-27",
+      "numero": 1,
+      "periodo": "18h33 até 19h28",
+      "origem": {
+        "arquivo": "chamadas/883/1287.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/883/1287.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Ausente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 890,
+      "titulo": "Sessão Ordinária Nº1/2026",
+      "data": "10/02/2026 19:01",
+      "realizada_em": "2026-02-10",
+      "numero": 1,
+      "periodo": "19h17 até 19h47",
+      "origem": {
+        "arquivo": "chamadas/890/1295.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/890/1295.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 895,
+      "titulo": "Sessão Ordinária Nº2/2026",
+      "data": "24/02/2026 19:15",
+      "realizada_em": "2026-02-24",
+      "numero": 1,
+      "periodo": "19h18 até 19h48",
+      "origem": {
+        "arquivo": "chamadas/895/1301.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/895/1301.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Ausente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 901,
+      "titulo": "Sessão Ordinária Nº3/2026",
+      "data": "10/03/2026 18:44",
+      "realizada_em": "2026-03-10",
+      "numero": 1,
+      "periodo": "19h16 até 19h56",
+      "origem": {
+        "arquivo": "chamadas/901/1308.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/901/1308.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Ausente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 907,
+      "titulo": "Sessão Ordinária Nº4/2026",
+      "data": "24/03/2026 19:04",
+      "realizada_em": "2026-03-24",
+      "numero": 1,
+      "periodo": "19h15 até 20h26",
+      "origem": {
+        "arquivo": "chamadas/907/1316.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/907/1316.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 917,
+      "titulo": "Sessão Ordinária Nº5/2026",
+      "data": "14/04/2026 19:06",
+      "realizada_em": "2026-04-14",
+      "numero": 1,
+      "periodo": "19h14 até 21h14",
+      "origem": {
+        "arquivo": "chamadas/917/1333.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/917/1333.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 925,
+      "titulo": "Sessão Ordinária Nº6/2026",
+      "data": "28/04/2026 18:56",
+      "realizada_em": "2026-04-28",
+      "numero": 1,
+      "periodo": "19h15 até 20h40",
+      "origem": {
+        "arquivo": "chamadas/925/1344.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/925/1344.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Ausente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 934,
+      "titulo": "Sessão Ordinária Nº7/2026",
+      "data": "12/05/2026 18:59",
+      "realizada_em": "2026-05-12",
+      "numero": 1,
+      "periodo": "19h13 até 19h37",
+      "origem": {
+        "arquivo": "chamadas/934/1355.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/934/1355.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 942,
+      "titulo": "Sessão Ordinária Nº8/2026",
+      "data": "26/05/2026 19:13",
+      "realizada_em": "2026-05-26",
+      "numero": 1,
+      "periodo": "19h16 até 20h22",
+      "origem": {
+        "arquivo": "chamadas/942/1365.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/942/1365.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 956,
+      "titulo": "Sessão Ordinária Nº9/2026",
+      "data": "09/06/2026 19:02",
+      "realizada_em": "2026-06-09",
+      "numero": 1,
+      "periodo": "19h13 até 20h42",
+      "origem": {
+        "arquivo": "chamadas/956/1381.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/956/1381.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 967,
+      "titulo": "Sessão Ordinária Nº10/2026",
+      "data": "23/06/2026 19:13",
+      "realizada_em": "2026-06-23",
+      "numero": 1,
+      "periodo": "19h22 até 20h59",
+      "origem": {
+        "arquivo": "chamadas/967/1395.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/967/1395.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 986,
+      "titulo": "Sessão Ordinária Nº11/2026",
+      "data": "11/08/2026 19:12",
+      "realizada_em": "2026-08-11",
+      "numero": 1,
+      "periodo": "19h19 até 21h03",
+      "origem": {
+        "arquivo": "chamadas/986/1418.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/986/1418.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 1004,
+      "titulo": "Sessão Ordinária Nº12/2026",
+      "data": "25/08/2026 19:07",
+      "realizada_em": "2026-08-25",
+      "numero": 1,
+      "periodo": "19h17 até 20h26",
+      "origem": {
+        "arquivo": "chamadas/1004/1442.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/1004/1442.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 1013,
+      "titulo": "Sessão Ordinária Nº13/2026",
+      "data": "08/09/2026 19:00",
+      "realizada_em": "2026-09-08",
+      "numero": 1,
+      "periodo": "19h19 até 18h47",
+      "origem": {
+        "arquivo": "chamadas/1013/1454.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/1013/1454.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 1018,
+      "titulo": "Sessão Extraordinária Nº3/2026",
+      "data": "15/09/2026 18:58",
+      "realizada_em": "2026-09-15",
+      "numero": 1,
+      "periodo": "19h12 até 21h41",
+      "origem": {
+        "arquivo": "chamadas/1018/1462.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/1018/1462.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 1024,
+      "titulo": "Sessão Ordinária Nº14/2026",
+      "data": "22/09/2026 19:01",
+      "realizada_em": "2026-09-22",
+      "numero": 1,
+      "periodo": "19h16 até 19h41",
+      "origem": {
+        "arquivo": "chamadas/1024/1469.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/1024/1469.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Ausente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 1036,
+      "titulo": "Sessão Ordinária Nº15/2026",
+      "data": "13/10/2026 19:18",
+      "realizada_em": "2026-10-13",
+      "numero": 1,
+      "periodo": "19h20 até 21h46",
+      "origem": {
+        "arquivo": "chamadas/1036/1485.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/1036/1485.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 1041,
+      "titulo": "Sessão Extraordinária Nº4/2026",
+      "data": "21/10/2026 18:03",
+      "realizada_em": "2026-10-21",
+      "numero": 1,
+      "periodo": "18h09 até 18h59",
+      "origem": {
+        "arquivo": "chamadas/1041/1491.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/1041/1491.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Ausente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    },
+    {
+      "sessao_id": 1048,
+      "titulo": "Sessão Ordinária Nº16/2026",
+      "data": "27/10/2026 18:59",
+      "realizada_em": "2026-10-27",
+      "numero": 1,
+      "periodo": "19h14 até 20h38",
+      "origem": {
+        "arquivo": "chamadas/1048/1499.pdf",
+        "url": "https://file.tramitacao.online/61392/arquivo_chamada/1048/1499.pdf"
+      },
+      "presencas": [
+        {
+          "nome": "Jone Viana dos Santos",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JONE VIANA DOS SANTOS"
+        },
+        {
+          "nome": "José Luiz Vivaldini",
+          "sigla": "PP",
+          "presenca": "Presente",
+          "nome_completo": "JOSE LUIZ VIVALDINI"
+        },
+        {
+          "nome": "Luiz Fernando Carvalho",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO CARVALHO"
+        },
+        {
+          "nome": "Luiz Fernando Ometo",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "LUIZ FERNANDO GERION OMETO"
+        },
+        {
+          "nome": "Magda Garbuio",
+          "sigla": "UNIAO",
+          "presenca": "Presente",
+          "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO"
+        },
+        {
+          "nome": "Paulo Sérgio Martins",
+          "sigla": "MDB",
+          "presenca": "Presente",
+          "nome_completo": "PAULO SERGIO MARTINS"
+        },
+        {
+          "nome": "Robson Viana",
+          "sigla": "REPUBLICANOS",
+          "presenca": "Presente",
+          "nome_completo": "ROBSON VIANA DOS SANTOS"
+        },
+        {
+          "nome": "Samuel Bispo da Silva",
+          "sigla": "SD",
+          "presenca": "Presente",
+          "nome_completo": "SAMUEL BISPO DA SILVA"
+        },
+        {
+          "nome": "Sidinei Carlos Valeriano",
+          "sigla": "PDT",
+          "presenca": "Presente",
+          "nome_completo": "SIDINEI CARLOS VALERIANO"
+        }
+      ]
+    }
+  ]
+}

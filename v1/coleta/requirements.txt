@@ -1,0 +1,2 @@
+# Dependências da coleta.
+# O Querido Diário usa só a biblioteca padrão. Acrescente um pacote aqui quando outra fonte precisar.

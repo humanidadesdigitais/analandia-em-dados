@@ -1,0 +1,51 @@
+{
+  "titulo": "Sessão Ordinária Nº7/2026",
+  "realizada_em": "2026-05-12",
+  "presencas": [
+    {
+      "nome": "Jone Viana dos Santos",
+      "sigla": "PP",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Luiz Fernando Ometo",
+      "sigla": "MDB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Magda Garbuio",
+      "sigla": "UNIAO",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Paulo Sérgio Martins",
+      "sigla": "MDB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Robson Viana",
+      "sigla": "REPUBLICANOS",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Samuel Bispo da Silva",
+      "sigla": "SD",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "presenca": "Presente"
+    }
+  ]
+}

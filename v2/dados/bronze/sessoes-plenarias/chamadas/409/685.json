@@ -1,0 +1,51 @@
+{
+  "titulo": "Sessão Extraordinária Nº3/2024",
+  "realizada_em": "2024-06-14",
+  "presencas": [
+    {
+      "nome": "Ciro João Bertoli",
+      "sigla": "PSB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Dirceu de Sousa",
+      "sigla": "MDB",
+      "presenca": "Ausente"
+    },
+    {
+      "nome": "Edivaldo Mistro",
+      "sigla": "PDT",
+      "presenca": "Ausente"
+    },
+    {
+      "nome": "João Carlos Barbosa Sodelli",
+      "sigla": "UNIAO",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "presenca": "Ausente"
+    },
+    {
+      "nome": "Leandro Santarpio",
+      "sigla": "MDB",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Rogerio Conceição dos Santos",
+      "sigla": "REPUBLICANOS",
+      "presenca": "Presente"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "presenca": "Presente"
+    }
+  ]
+}

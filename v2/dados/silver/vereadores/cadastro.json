@@ -1,0 +1,902 @@
+{
+  "tema": "vereadores",
+  "vereadores": [
+    {
+      "nome_urna": "SERGINHO POLICIAL",
+      "nome_completo": "PAULO SERGIO MARTINS",
+      "numero": 15190,
+      "partido": "MDB",
+      "sexo": "MASC.",
+      "totalizacao": "Eleito por QP",
+      "votos_nominais": 346,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ZÉ VIVALDINI",
+      "nome_completo": "JOSE LUIZ VIVALDINI",
+      "numero": 11444,
+      "partido": "PP",
+      "sexo": "MASC.",
+      "totalizacao": "Eleito por QP",
+      "votos_nominais": 265,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "FERNANDO OMETO",
+      "nome_completo": "LUIZ FERNANDO GERION OMETO",
+      "numero": 15000,
+      "partido": "MDB",
+      "sexo": "MASC.",
+      "totalizacao": "Eleito por QP",
+      "votos_nominais": 200,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "NANDO",
+      "nome_completo": "LUIZ FERNANDO CARVALHO",
+      "numero": 44666,
+      "partido": "UNIÃO",
+      "sexo": "MASC.",
+      "totalizacao": "Eleito por QP",
+      "votos_nominais": 189,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "GIRIBI",
+      "nome_completo": "SIDINEI CARLOS VALERIANO",
+      "numero": 12555,
+      "partido": "PDT",
+      "sexo": "MASC.",
+      "totalizacao": "Eleito por média",
+      "votos_nominais": 185,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "JONE DA ESTAÇÃO",
+      "nome_completo": "JONE VIANA DOS SANTOS",
+      "numero": 11234,
+      "partido": "PP",
+      "sexo": "MASC.",
+      "totalizacao": "Eleito por média",
+      "votos_nominais": 132,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "SAMUEL BISPO",
+      "nome_completo": "SAMUEL BISPO DA SILVA",
+      "numero": 77411,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "MASC.",
+      "totalizacao": "Eleito por QP",
+      "votos_nominais": 124,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "PROFESSOR FERNANDO LAXA",
+      "nome_completo": "FERNANDO ANDRE BARBOZA LAXA",
+      "numero": 15300,
+      "partido": "MDB",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 109,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "EDIVALDO MISTRO",
+      "nome_completo": "EDIVALDO ARGENTINO MISTRO",
+      "numero": 12222,
+      "partido": "PDT",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 103,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ROBSON VIANA",
+      "nome_completo": "ROBSON VIANA DOS SANTOS",
+      "numero": 10333,
+      "partido": "REPUBLICANOS",
+      "sexo": "MASC.",
+      "totalizacao": "Eleito por média",
+      "votos_nominais": 98,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ALEXANDRA SANTARPIO  XAN",
+      "nome_completo": "ALEXANDRA TORQUESI SANTARPIO",
+      "numero": 15123,
+      "partido": "MDB",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 97,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "MAGDA DO LUIZINHO",
+      "nome_completo": "MAGDA DONIZETE SARTORI GARBUIO",
+      "numero": 44123,
+      "partido": "UNIÃO",
+      "sexo": "FEM.",
+      "totalizacao": "Eleito por média",
+      "votos_nominais": 95,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "MARCIA EMERICK",
+      "nome_completo": "MARCIA REGINA EMERICK",
+      "numero": 44128,
+      "partido": "UNIÃO",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 89,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "JOÃO SODELLI",
+      "nome_completo": "JOÃO CARLOS BARBOSA SODELLI",
+      "numero": 44699,
+      "partido": "UNIÃO",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 89,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "JULISMAR NEGUINHO DO GÁS",
+      "nome_completo": "JOSE JUILISMAR DOS SANTOS DE SOUZA",
+      "numero": 10222,
+      "partido": "REPUBLICANOS",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 85,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "VITOR DO MINHOCO",
+      "nome_completo": "VITOR FERREIRA DA SILVA",
+      "numero": 15555,
+      "partido": "MDB",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 84,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "DEBORA FRANCESCHINI",
+      "nome_completo": "DEBORA CANELLO FRANCESCHINI",
+      "numero": 11222,
+      "partido": "PP",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 65,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ROSELI MASCIA",
+      "nome_completo": "ROSELI MASCIA",
+      "numero": 11000,
+      "partido": "PP",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 63,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ROGERINHO",
+      "nome_completo": "ROGERIO CONCEIÇÃO DOS SANTOS",
+      "numero": 10123,
+      "partido": "REPUBLICANOS",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 54,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "SUELENE DO MAGAL",
+      "nome_completo": "SUELENE PEDRO DE ALCANTARA",
+      "numero": 20333,
+      "partido": "PODE",
+      "sexo": "FEM.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 53,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ELAINE CABELEIREIRA",
+      "nome_completo": "ELAINE CRISTINA FERNANDES CARVALHO",
+      "numero": 10000,
+      "partido": "REPUBLICANOS",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 50,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "GUIDO",
+      "nome_completo": "JOSE LUIZ DE GUIDO",
+      "numero": 11116,
+      "partido": "PP",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 48,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "PASTOR ADEILSON",
+      "nome_completo": "ADEILSON SEVERINO DA SILVA",
+      "numero": 77477,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 48,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "MARCO FEBRAS",
+      "nome_completo": "MARCO ANTONIO FEBRAS JUNIOR",
+      "numero": 44675,
+      "partido": "UNIÃO",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 47,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ADRIANO DA PORTARIA",
+      "nome_completo": "ADRIANO BARRETO MACEDO",
+      "numero": 77377,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 47,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "PEREIRA",
+      "nome_completo": "LUIZ CARLOS BUENO",
+      "numero": 77222,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 37,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ANA PAULA MACIEL",
+      "nome_completo": "ANA PAULA MACIEL SILVA",
+      "numero": 77777,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 33,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "REGINALDO RATÃO",
+      "nome_completo": "REGINALDO LOURENÇO DA SILVA",
+      "numero": 44600,
+      "partido": "UNIÃO",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 32,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "LIVIA ROSNER",
+      "nome_completo": "LIVIA CANELLO ROSNER",
+      "numero": 11333,
+      "partido": "PP",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 31,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "TERESINHA DO LAR",
+      "nome_completo": "TERESINHA DE MORAES",
+      "numero": 44639,
+      "partido": "UNIÃO",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 31,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "THIAGO SCHALCH",
+      "nome_completo": "THIAGO DE ALMEIDA SCHALCH",
+      "numero": 15700,
+      "partido": "MDB",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 30,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "FERNANDO DO BUDEGAS",
+      "nome_completo": "LUIZ FERNANDO DOS SANTOS",
+      "numero": 44444,
+      "partido": "UNIÃO",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 30,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ADELSON GUINTHER",
+      "nome_completo": "ADELSON DIONE GUINTHER",
+      "numero": 20200,
+      "partido": "PODE",
+      "sexo": "MASC.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 28,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "GABRIEL BATORÉ",
+      "nome_completo": "GABRIEL RODRIGO RODRIGUES",
+      "numero": 20678,
+      "partido": "PODE",
+      "sexo": "MASC.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 28,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "CAQUI",
+      "nome_completo": "LUIS CARLOS DOS SANTOS",
+      "numero": 20111,
+      "partido": "PODE",
+      "sexo": "MASC.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 27,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "CLEIDE ROCHA CORRETORA",
+      "nome_completo": "CLEIDE APARECIDA ROCHA",
+      "numero": 20220,
+      "partido": "PODE",
+      "sexo": "FEM.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 26,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "JORGE´  S BAR",
+      "nome_completo": "WELLINGTON DOS SANTOS SILVA",
+      "numero": 10077,
+      "partido": "REPUBLICANOS",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 25,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ALDINHO SOUZA",
+      "nome_completo": "ALDO MARCIANO DE SOUZA",
+      "numero": 15651,
+      "partido": "MDB",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 23,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "PROFESSOR VALDECIR",
+      "nome_completo": "VALDECIR APARECIDO CRIVELLARI CAVALARI MACEDO",
+      "numero": 20245,
+      "partido": "PODE",
+      "sexo": "MASC.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 23,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ALAN DA SILVEIRA",
+      "nome_completo": "ALAN DA SILVEIRA",
+      "numero": 77600,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 23,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "GILBERTO CANTERA",
+      "nome_completo": "GILBERTO APARECIDO CANTERA",
+      "numero": 11555,
+      "partido": "PP",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 21,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "LEVI PERES",
+      "nome_completo": "LEVI PERES",
+      "numero": 11123,
+      "partido": "PP",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 20,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "JEANE RIBEIRO",
+      "nome_completo": "JEANE CRISTINA RIBEIRO BARBOSA",
+      "numero": 15900,
+      "partido": "MDB",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 18,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "MARIA DIVINA",
+      "nome_completo": "MARIA DIVINA DOS SANTOS",
+      "numero": 77533,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 18,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "FABIOLA CURVELLO",
+      "nome_completo": "FABIOLA CURVELLO",
+      "numero": 12888,
+      "partido": "PDT",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 16,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "TONINHO CAVALCANTE",
+      "nome_completo": "ANTONIO ARANTE CAVALCANTE",
+      "numero": 44663,
+      "partido": "UNIÃO",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 15,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ADELMO BRAGA",
+      "nome_completo": "ADELMO DONIZETE BRAGA",
+      "numero": 10111,
+      "partido": "REPUBLICANOS",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 13,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "JULIO CESAR INSPETOR",
+      "nome_completo": "JULIO CESAR FONTES",
+      "numero": 77123,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 13,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "MANÉ BARBEIRO ",
+      "nome_completo": "MANOEL CAETANO DOS SANTOS",
+      "numero": 77141,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 9,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "FERNANDA TAVARES",
+      "nome_completo": "FERNANDA TAVARES CORREA",
+      "numero": 15600,
+      "partido": "MDB",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 8,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "DR ALEXANDRE ACHE",
+      "nome_completo": "ALEXANDRE MAXIMILIANO ROSNER ALVES CORRÊA",
+      "numero": 11999,
+      "partido": "PP",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 7,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "DENIS ENFERMEIRO",
+      "nome_completo": "DENIS AUGUSTO DA SILVA PADOVAN",
+      "numero": 44644,
+      "partido": "UNIÃO",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 7,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "SARA DO DIDI",
+      "nome_completo": "SARA DANIELA ZABAGLIA",
+      "numero": 77345,
+      "partido": "SOLIDARIEDADE",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 7,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "GILBERTO FISCAL",
+      "nome_completo": "GILBERTO DE OLIVEIRA",
+      "numero": 10010,
+      "partido": "REPUBLICANOS",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 6,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "IVANI PAIUTA",
+      "nome_completo": "IVANI QUADRADO PAIUTA",
+      "numero": 11115,
+      "partido": "PP",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 6,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ANINHA RODRIGUES",
+      "nome_completo": "ANA LUCIA RODRIGUES DOS SANTOS",
+      "numero": 12999,
+      "partido": "PDT",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 6,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "MAGRÃO MOURA",
+      "nome_completo": "VLADEMIR DE MOURA",
+      "numero": 15130,
+      "partido": "MDB",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 6,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "GEOVANNA DO BOI",
+      "nome_completo": "GEOVANNA BOMFIM EUGENIO",
+      "numero": 20420,
+      "partido": "PODE",
+      "sexo": "FEM.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 6,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "LUIS PEDREIRO",
+      "nome_completo": "LUIS BENEDITO MAURICIO",
+      "numero": 20655,
+      "partido": "PODE",
+      "sexo": "MASC.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 6,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "VAL DO DEIR",
+      "nome_completo": "VALDIRENE SANTANA LUCILIO",
+      "numero": 12777,
+      "partido": "PDT",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 5,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "MARCONDES",
+      "nome_completo": "MARCONDES MEDEIROS DA SILVA",
+      "numero": 20300,
+      "partido": "PODE",
+      "sexo": "MASC.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 5,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "MARQUINHO CARIOCA",
+      "nome_completo": "MARCO ANTONIO PINHEIRO DE FREITAS",
+      "numero": 12005,
+      "partido": "PDT",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 4,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ROGÉRIO CAMPOS ALEIXO",
+      "nome_completo": "MARCOS ROGERIO DE CAMPOS",
+      "numero": 12010,
+      "partido": "PDT",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 4,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ALECIO FUMINHO",
+      "nome_completo": "ALECIO DE CARVALHO",
+      "numero": 20620,
+      "partido": "PODE",
+      "sexo": "MASC.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": 4,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "CLAUDIA DA AUREA",
+      "nome_completo": "CLAUDIA REGINA DE JESUS",
+      "numero": 10777,
+      "partido": "REPUBLICANOS",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 2,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "ROBERTO BARONI",
+      "nome_completo": "ROBERTO BARONI",
+      "numero": 12000,
+      "partido": "PDT",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 2,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "EDIVAN",
+      "nome_completo": "EDIVAN DOS SANTOS FERREIRA",
+      "numero": 12333,
+      "partido": "PDT",
+      "sexo": "MASC.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 1,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "BIANCA LOPES",
+      "nome_completo": "BIANCA CRISTINA LOPES",
+      "numero": 12345,
+      "partido": "PDT",
+      "sexo": "FEM.",
+      "totalizacao": "Suplente",
+      "votos_nominais": 0,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    },
+    {
+      "nome_urna": "SUELEN PEREIRA",
+      "nome_completo": "SUELEN DA SILVA PEREIRA",
+      "numero": 10789,
+      "partido": "REPUBLICANOS",
+      "sexo": "FEM.",
+      "totalizacao": "Não eleito",
+      "votos_nominais": null,
+      "origem": {
+        "candidatos": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/61395/2045202024/13/candidatos",
+        "votos": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+      }
+    }
+  ]
+}

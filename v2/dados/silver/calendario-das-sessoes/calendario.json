@@ -1,0 +1,366 @@
+{
+  "tema": "calendario-das-sessoes",
+  "anos": [
+    {
+      "origem": {
+        "arquivo": "7141.pdf",
+        "titulo": "Calendário das Sessões",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/7141.pdf",
+        "data_documento": "2019-01-02"
+      },
+      "exercicio": 2019,
+      "horario": "19:00",
+      "regra": "2ª e 4ª terças-feiras",
+      "sessoes": [
+        "2019-02-12",
+        "2019-02-26",
+        "2019-03-12",
+        "2019-03-26",
+        "2019-04-09",
+        "2019-04-23",
+        "2019-05-14",
+        "2019-05-28",
+        "2019-06-11",
+        "2019-06-25",
+        "2019-08-13",
+        "2019-08-27",
+        "2019-09-10",
+        "2019-09-24",
+        "2019-10-08",
+        "2019-10-22",
+        "2019-11-12",
+        "2019-11-26",
+        "2019-12-10"
+      ],
+      "recessos": [
+        {
+          "inicio": "2019-07-01",
+          "fim": "2019-07-31",
+          "texto": "Recesso de 1º a 31 de julho"
+        },
+        {
+          "inicio": "2019-12-16",
+          "fim": "2020-01-31",
+          "texto": "Recesso a partir de 16 de dez a 31 de jan"
+        }
+      ]
+    },
+    {
+      "origem": {
+        "arquivo": "12207.pdf",
+        "titulo": "Calendário das Sessões do Exercício de 2020",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/12207.pdf",
+        "data_documento": "2019-12-31"
+      },
+      "exercicio": 2020,
+      "horario": "19:00",
+      "regra": "2ª e 4ª terças-feiras",
+      "sessoes": [
+        "2020-02-11",
+        "2020-02-26",
+        "2020-03-10",
+        "2020-03-24",
+        "2020-04-14",
+        "2020-04-28",
+        "2020-05-12",
+        "2020-05-26",
+        "2020-06-09",
+        "2020-06-23",
+        "2020-08-11",
+        "2020-08-25",
+        "2020-09-08",
+        "2020-09-22",
+        "2020-10-13",
+        "2020-10-27",
+        "2020-11-10",
+        "2020-11-24",
+        "2020-12-08"
+      ],
+      "recessos": [
+        {
+          "inicio": "2020-07-01",
+          "fim": "2020-07-31",
+          "texto": "Recesso de 1º a 31 de julho"
+        },
+        {
+          "inicio": "2020-12-16",
+          "fim": "2020-12-31",
+          "texto": "Recesso a partir de 16 de dez a 31 de dez"
+        }
+      ]
+    },
+    {
+      "origem": {
+        "arquivo": "20899.pdf",
+        "titulo": "Calendário das Sessões do Exercício de 2021",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/20899.pdf",
+        "data_documento": "2021-01-01"
+      },
+      "exercicio": 2021,
+      "horario": "19:00",
+      "regra": "2ª e 4ª terças-feiras",
+      "sessoes": [
+        "2021-01-12",
+        "2021-01-26",
+        "2021-02-09",
+        "2021-02-23",
+        "2021-03-09",
+        "2021-03-23",
+        "2021-04-13",
+        "2021-04-27",
+        "2021-05-11",
+        "2021-05-25",
+        "2021-06-08",
+        "2021-06-22",
+        "2021-08-10",
+        "2021-08-24",
+        "2021-09-14",
+        "2021-09-28",
+        "2021-10-13",
+        "2021-10-27",
+        "2021-11-09",
+        "2021-11-23",
+        "2021-12-14"
+      ],
+      "recessos": [
+        {
+          "inicio": "2021-07-01",
+          "fim": "2021-07-31",
+          "texto": "Recesso de 1º a 31 de julho"
+        },
+        {
+          "inicio": "2021-12-16",
+          "fim": "2022-01-31",
+          "texto": "Recesso a partir de 16 de dez a 31 de jan"
+        }
+      ]
+    },
+    {
+      "origem": {
+        "arquivo": "24964.pdf",
+        "titulo": "Calendário das Sessões Legisaltivas do exercício de 2022",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/24964.pdf",
+        "data_documento": "2022-01-05"
+      },
+      "exercicio": 2022,
+      "horario": "19:00",
+      "regra": "2ª e 4ª terças-feiras",
+      "sessoes": [
+        "2022-02-08",
+        "2022-02-22",
+        "2022-03-08",
+        "2022-03-22",
+        "2022-04-12",
+        "2022-04-26",
+        "2022-05-10",
+        "2022-05-24",
+        "2022-06-14",
+        "2022-06-28",
+        "2022-08-09",
+        "2022-08-23",
+        "2022-09-13",
+        "2022-09-27",
+        "2022-10-11",
+        "2022-10-25",
+        "2022-11-08",
+        "2022-11-22",
+        "2022-12-13"
+      ],
+      "recessos": [
+        {
+          "inicio": "2022-07-01",
+          "fim": "2022-07-31",
+          "texto": "Recesso de 1º a 31 de julho"
+        },
+        {
+          "inicio": "2022-12-16",
+          "fim": "2023-01-31",
+          "texto": "Recesso a partir de 16 de dez a 31 de jan"
+        }
+      ]
+    },
+    {
+      "origem": {
+        "arquivo": "27564.pdf",
+        "titulo": "Calendário das Sessões Ordinárias - 2023",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/27564.pdf",
+        "data_documento": "2023-01-02"
+      },
+      "exercicio": 2023,
+      "horario": "19:00",
+      "regra": "2ª e 4ª terças-feiras",
+      "sessoes": [
+        "2023-02-14",
+        "2023-02-28",
+        "2023-03-14",
+        "2023-03-28",
+        "2023-04-11",
+        "2023-04-25",
+        "2023-05-09",
+        "2023-05-23",
+        "2023-06-13",
+        "2023-06-27",
+        "2023-08-08",
+        "2023-08-22",
+        "2023-09-12",
+        "2023-09-26",
+        "2023-10-10",
+        "2023-10-24",
+        "2023-11-14",
+        "2023-11-28",
+        "2023-12-12"
+      ],
+      "recessos": [
+        {
+          "inicio": "2023-07-01",
+          "fim": "2023-07-31",
+          "texto": "Recesso de 1º a 31 de julho"
+        },
+        {
+          "inicio": "2023-12-16",
+          "fim": "2024-01-31",
+          "texto": "Recesso a partir de 16 de dez a 31 de jan"
+        }
+      ]
+    },
+    {
+      "origem": {
+        "arquivo": "30912.pdf",
+        "titulo": "Calendário das Sessões Ordinárias - 2024",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/30912.pdf",
+        "data_documento": "2024-02-06"
+      },
+      "exercicio": 2024,
+      "horario": "19:00",
+      "regra": "2ª e 4ª terças-feiras",
+      "sessoes": [
+        "2024-02-15",
+        "2024-02-27",
+        "2024-03-12",
+        "2024-03-26",
+        "2024-04-09",
+        "2024-04-23",
+        "2024-05-14",
+        "2024-05-28",
+        "2024-06-11",
+        "2024-06-25",
+        "2024-08-13",
+        "2024-08-27",
+        "2024-09-10",
+        "2024-09-24",
+        "2024-10-08",
+        "2024-10-22",
+        "2024-11-12",
+        "2024-11-26",
+        "2024-12-10"
+      ],
+      "recessos": [
+        {
+          "inicio": "2024-01-01",
+          "fim": "2024-01-31",
+          "texto": "Recesso de 01 a 31 de janeiro"
+        },
+        {
+          "inicio": "2024-07-01",
+          "fim": "2024-07-31",
+          "texto": "Recesso de 1º a 31 de julho"
+        },
+        {
+          "inicio": "2024-12-16",
+          "fim": "2025-01-30",
+          "texto": "Recesso a partir de 16 de dez a 30 de jan"
+        }
+      ]
+    },
+    {
+      "origem": {
+        "arquivo": "31803.pdf",
+        "titulo": "Calendário das Sessões Ordinárias - 2025",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/31803.pdf",
+        "data_documento": "2025-01-03"
+      },
+      "exercicio": 2025,
+      "horario": "19:00",
+      "regra": "2ª e 4ª terças-feiras",
+      "sessoes": [
+        "2025-01-14",
+        "2025-01-28",
+        "2025-02-11",
+        "2025-02-25",
+        "2025-03-11",
+        "2025-03-25",
+        "2025-04-08",
+        "2025-04-22",
+        "2025-05-13",
+        "2025-05-27",
+        "2025-06-10",
+        "2025-06-24",
+        "2025-08-12",
+        "2025-08-26",
+        "2025-09-09",
+        "2025-09-23",
+        "2025-10-14",
+        "2025-10-28",
+        "2025-11-11",
+        "2025-11-25",
+        "2025-12-09"
+      ],
+      "recessos": [
+        {
+          "inicio": "2025-07-01",
+          "fim": "2025-07-31",
+          "texto": "Recesso de 1º a 31 de julho"
+        },
+        {
+          "inicio": "2025-12-16",
+          "fim": "2026-01-31",
+          "texto": "Recesso de 16 de dez a 31 de jan"
+        }
+      ]
+    },
+    {
+      "origem": {
+        "arquivo": "33153.pdf",
+        "titulo": "Calendário das Sessões Ordinárias - 2026",
+        "url": "https://file.camaraanalandia.sp.gov.br/61392/doc/arquivo/33153.pdf",
+        "data_documento": "2026-04-08"
+      },
+      "exercicio": 2026,
+      "horario": "19:00",
+      "regra": "2ª e 4ª terças-feiras",
+      "sessoes": [
+        "2026-02-10",
+        "2026-02-24",
+        "2026-03-10",
+        "2026-03-24",
+        "2026-04-14",
+        "2026-04-28",
+        "2026-05-12",
+        "2026-05-26",
+        "2026-06-09",
+        "2026-06-23",
+        "2026-08-11",
+        "2026-08-25",
+        "2026-09-08",
+        "2026-09-22",
+        "2026-10-13",
+        "2026-10-27",
+        "2026-11-10",
+        "2026-11-24",
+        "2026-12-08"
+      ],
+      "recessos": [
+        {
+          "inicio": "2026-07-01",
+          "fim": "2026-07-31",
+          "texto": "Recesso de 1º a 31 de julho"
+        },
+        {
+          "inicio": "2026-12-16",
+          "fim": "2027-01-31",
+          "texto": "Recesso de 16 de dez a 31 de jan"
+        }
+      ]
+    }
+  ]
+}

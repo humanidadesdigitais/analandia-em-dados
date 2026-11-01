@@ -1,0 +1,193 @@
+{
+  "tema": "audiencias-publicas",
+  "por_exercicio": [
+    {
+      "exercicio": 2019,
+      "documentos": 5,
+      "convites": 2,
+      "atas": 3
+    },
+    {
+      "exercicio": 2020,
+      "documentos": 4,
+      "convites": 2,
+      "atas": 2
+    },
+    {
+      "exercicio": 2021,
+      "documentos": 6,
+      "convites": 3,
+      "atas": 3
+    },
+    {
+      "exercicio": 2022,
+      "documentos": 4,
+      "convites": 2,
+      "atas": 2
+    },
+    {
+      "exercicio": 2023,
+      "documentos": 4,
+      "convites": 2,
+      "atas": 2
+    },
+    {
+      "exercicio": 2024,
+      "documentos": 4,
+      "convites": 2,
+      "atas": 2
+    },
+    {
+      "exercicio": 2025,
+      "documentos": 4,
+      "convites": 2,
+      "atas": 2
+    },
+    {
+      "exercicio": 2026,
+      "documentos": 2,
+      "convites": 1,
+      "atas": 1
+    }
+  ],
+  "por_peca": [
+    {
+      "peca": "LDO",
+      "documentos": 13
+    },
+    {
+      "peca": "LOA",
+      "documentos": 13
+    },
+    {
+      "peca": "PPA",
+      "documentos": 4
+    },
+    {
+      "peca": null,
+      "documentos": 3
+    }
+  ],
+  "composicao": [
+    {
+      "exercicio": 2019,
+      "convites": {
+        "LDO": 1,
+        "LOA": 1,
+        "PPA": 0,
+        "sem_peca": 0
+      },
+      "atas": {
+        "LDO": 0,
+        "LOA": 2,
+        "PPA": 0,
+        "sem_peca": 1
+      }
+    },
+    {
+      "exercicio": 2020,
+      "convites": {
+        "LDO": 1,
+        "LOA": 1,
+        "PPA": 0,
+        "sem_peca": 0
+      },
+      "atas": {
+        "LDO": 1,
+        "LOA": 1,
+        "PPA": 0,
+        "sem_peca": 0
+      }
+    },
+    {
+      "exercicio": 2021,
+      "convites": {
+        "LDO": 1,
+        "LOA": 1,
+        "PPA": 1,
+        "sem_peca": 0
+      },
+      "atas": {
+        "LDO": 1,
+        "LOA": 1,
+        "PPA": 1,
+        "sem_peca": 0
+      }
+    },
+    {
+      "exercicio": 2022,
+      "convites": {
+        "LDO": 1,
+        "LOA": 1,
+        "PPA": 0,
+        "sem_peca": 0
+      },
+      "atas": {
+        "LDO": 1,
+        "LOA": 1,
+        "PPA": 0,
+        "sem_peca": 0
+      }
+    },
+    {
+      "exercicio": 2023,
+      "convites": {
+        "LDO": 1,
+        "LOA": 0,
+        "PPA": 0,
+        "sem_peca": 1
+      },
+      "atas": {
+        "LDO": 1,
+        "LOA": 1,
+        "PPA": 0,
+        "sem_peca": 0
+      }
+    },
+    {
+      "exercicio": 2024,
+      "convites": {
+        "LDO": 1,
+        "LOA": 1,
+        "PPA": 0,
+        "sem_peca": 0
+      },
+      "atas": {
+        "LDO": 0,
+        "LOA": 1,
+        "PPA": 0,
+        "sem_peca": 1
+      }
+    },
+    {
+      "exercicio": 2025,
+      "convites": {
+        "LDO": 1,
+        "LOA": 0,
+        "PPA": 1,
+        "sem_peca": 0
+      },
+      "atas": {
+        "LDO": 0,
+        "LOA": 1,
+        "PPA": 1,
+        "sem_peca": 0
+      }
+    },
+    {
+      "exercicio": 2026,
+      "convites": {
+        "LDO": 1,
+        "LOA": 0,
+        "PPA": 0,
+        "sem_peca": 0
+      },
+      "atas": {
+        "LDO": 1,
+        "LOA": 0,
+        "PPA": 0,
+        "sem_peca": 0
+      }
+    }
+  ]
+}
