@@ -1369,6 +1369,26 @@ main {
   border-radius: var(--space-2);
 }
 
+.item-linha {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: var(--space-3);
+  row-gap: var(--space-2);
+}
+
+.item-linha h3,
+.item-linha .meta {
+  min-width: 0;
+}
+
+.item-linha .acoes {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+  margin: 0;
+}
+
 .item h2 {
   margin: 0;
   color: var(--color-primary);
