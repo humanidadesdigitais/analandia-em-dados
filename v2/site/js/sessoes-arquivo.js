@@ -26,7 +26,7 @@
 
   function cartao(item) {
     const bloco = document.createElement("article");
-    bloco.className = "item";
+    bloco.className = "item item-linha";
     const titulo = document.createElement("h3");
     const meta = document.createElement("dl");
     meta.className = "meta";
@@ -43,13 +43,10 @@
     }
     const acoes = document.createElement("p");
     acoes.className = "acoes";
-    const pdf = document.createElement("a");
-    pdf.href = `../../../dados/bronze/sessoes-plenarias/${item.origem.arquivo}`;
-    pdf.textContent = "Abrir PDF";
     const fonte = document.createElement("a");
     fonte.href = item.origem.url;
     fonte.textContent = "Fonte";
-    acoes.append(pdf, fonte);
+    acoes.append(fonte);
     bloco.append(titulo, meta, acoes);
     return bloco;
   }
@@ -110,7 +107,7 @@
       anos.forEach(([, grupo]) => {
         grupo.sort((a, b) => diaDe(b).localeCompare(diaDe(a)) || a.indice - b.indice);
       });
-      lista.append(...anos.map(([ano, grupo], indice) => blocoAno(ano, grupo, indice === 0)));
+      lista.append(...anos.map(([ano, grupo]) => blocoAno(ano, grupo, false)));
     })
     .catch(() => {
       lista.hidden = true;
