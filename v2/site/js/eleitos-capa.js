@@ -30,6 +30,20 @@
     return link;
   }
 
+  function cartaoCandidatos() {
+    const botao = document.createElement("button");
+    botao.type = "button";
+    botao.id = "abrir-vereadores";
+    botao.className = "eleito-card eleito-card-candidatos";
+    const nome = document.createElement("h3");
+    nome.textContent = "Saiba quem se candidatou em 2024";
+    botao.append(nome);
+    return botao;
+  }
+
+  const candidatos = cartaoCandidatos();
+  lista.append(candidatos);
+
   fetch("../dados/silver/vereadores/cadastro.json")
     .then((resposta) => {
       if (!resposta.ok) throw new Error(String(resposta.status));
@@ -37,12 +51,12 @@
     })
     .then((cadastro) => {
       const eleitos = cadastro.vereadores.filter((pessoa) => eleito(pessoa.totalizacao));
-      lista.append(...eleitos.map(cartao));
+      eleitos.map(cartao).forEach((card) => lista.insertBefore(card, candidatos));
     })
     .catch(() => {
       const aviso = document.createElement("p");
       aviso.className = "dialogo-erro";
       aviso.textContent = "Não foi possível ler os eleitos.";
-      lista.append(aviso);
+      lista.insertBefore(aviso, candidatos);
     });
 })();

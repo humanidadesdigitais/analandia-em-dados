@@ -513,6 +513,20 @@ main {
   outline-offset: 2px;
 }
 
+.eleito-card-candidatos {
+  justify-content: center;
+  align-items: center;
+  background: #e2e8f0;
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+
+.eleito-card-candidatos:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .eleito-card h3 {
   margin: 0;
   color: var(--color-primary);
@@ -625,6 +639,10 @@ th[aria-sort="descending"] .ordenar-coluna::after {
 }
 
 @media (prefers-color-scheme: dark) {
+  .eleito-card-candidatos {
+    background: #334155;
+  }
+
   #votos-anos {
     --color-voto-contrario: #f87171;
     --color-voto-abstencao: #7dd3fc;
@@ -649,6 +667,14 @@ th[aria-sort="descending"] .ordenar-coluna::after {
   color: var(--color-primary);
   font-size: var(--text-2xl);
   line-height: var(--leading-2xl);
+}
+
+.subtitulo {
+  max-width: 62ch;
+  margin: 0 0 var(--space-3);
+  color: var(--color-text-muted);
+  font-size: var(--text-base);
+  line-height: var(--leading-base);
 }
 
 .botoes-capa {
