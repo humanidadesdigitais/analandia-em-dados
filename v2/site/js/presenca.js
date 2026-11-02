@@ -17,9 +17,7 @@ const MESES = [
 const DIAS = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
 
 const abrir = document.querySelector("#abrir-presenca");
-const dialogo = document.querySelector("#presenca-calendario");
 const dialogoDia = document.querySelector("#presenca-dia");
-const fechar = document.querySelector("#fechar-presenca");
 const fecharDia = document.querySelector("#fechar-presenca-dia");
 const painel = document.querySelector("#painel-presenca");
 const erro = document.querySelector("#erro-presenca");
@@ -34,19 +32,9 @@ const dialogoChamada = document.querySelector("#presenca-chamada");
 const fecharChamada = document.querySelector("#fechar-presenca-chamada");
 const tituloChamada = document.querySelector("#titulo-presenca-chamada");
 const paineisChamada = document.querySelector("#paineis-presenca-chamada");
-const abrirVotos = document.querySelector("#abrir-votos-vereador");
-const dialogoVotos = document.querySelector("#votos-vereador");
-const fecharVotos = document.querySelector("#fechar-votos-vereador");
-const layoutVotos = document.querySelector("#layout-votos-vereador");
-const listaVotos = document.querySelector("#lista-votos-vereador");
-const painelVotos = document.querySelector("#painel-votos-vereador");
-const erroVotos = document.querySelector("#erro-votos-vereador");
-
-const ORDEM_VOTO = ["Favorável", "Contrário", "Abstenção"];
 
 let chamadas = null;
 let sumulas = null;
-let eleitos = null;
 let porDia = new Map();
 let sumulasPorDia = new Map();
 let diaAberto = "";
@@ -321,7 +309,20 @@ function preparar(lista, lidas) {
   desenhar(anoFim, mesFim);
 }
 
+let leitura = null;
+
 async function carregar() {
+  if (chamadas) return;
+  if (!leitura) {
+    leitura = lerChamadas().catch((falha) => {
+      leitura = null;
+      throw falha;
+    });
+  }
+  return leitura;
+}
+
+async function lerChamadas() {
   if (chamadas) return;
   const [resposta, respostaSumulas] = await Promise.all([
     fetch("../dados/silver/sessoes-plenarias/chamadas.json"),
@@ -342,21 +343,10 @@ async function carregar() {
   preparar(lido.chamadas, lidas.sumulas);
 }
 
-async function carregarEleitos() {
-  if (eleitos) return;
-  const resposta = await fetch("../dados/silver/vereadores/cadastro.json");
-  if (!resposta.ok) throw new Error("leitura");
-  const cadastro = await resposta.json();
-  if (!Array.isArray(cadastro.vereadores)) throw new Error("formato");
-  eleitos = new Set(
-    cadastro.vereadores
-      .filter((pessoa) => String(pessoa.totalizacao || "").toLowerCase().startsWith("eleito"))
-      .map((pessoa) => pessoa.nome_completo),
-  );
-}
-
 const SVG = "http://www.w3.org/2000/svg";
-const abrirIndicadores = document.querySelector("#abrir-presenca-indicadores");
+const tituloIndicadores = document.querySelector("#titulo-presenca-indicadores");
+const abrirVoto = document.querySelector("#abrir-indicadores-voto");
+const abrirPresencaIndicador = document.querySelector("#abrir-indicadores-presenca");
 const dialogoIndicadores = document.querySelector("#presenca-indicadores");
 const fecharIndicadores = document.querySelector("#fechar-presenca-indicadores");
 const filtrosIndicadores = document.querySelector("#filtros-presenca");
@@ -365,9 +355,8 @@ const vazioIndicadores = document.querySelector("#presenca-vazio");
 const erroIndicadores = document.querySelector("#erro-presenca-indicadores");
 const filtroMes = document.querySelector("#filtro-presenca-mes");
 const filtroAno = document.querySelector("#filtro-presenca-ano");
-const abaVoto = document.querySelector("#aba-voto");
-const abaPresenca = document.querySelector("#aba-presenca");
 const painelVoto = document.querySelector("#painel-voto");
+let indicadorVoto = true;
 
 function svg(nome, atributos) {
   const elemento = document.createElementNS(SVG, nome);
@@ -596,20 +585,16 @@ function grafico(pessoas, totalChamadas) {
   return figura;
 }
 
-function abaDeVoto() {
-  return abaVoto.getAttribute("aria-selected") === "true";
-}
-
-function selecionarAba(voto) {
-  abaVoto.setAttribute("aria-selected", voto ? "true" : "false");
-  abaPresenca.setAttribute("aria-selected", voto ? "false" : "true");
+function selecionarIndicador(voto) {
+  indicadorVoto = voto;
+  tituloIndicadores.textContent = voto ? "Indicadores de voto" : "Indicadores de presença";
   painelVoto.hidden = !voto;
   paineisIndicadores.hidden = voto;
   desenharIndicadores();
 }
 
 function desenharIndicadores() {
-  if (abaDeVoto()) {
+  if (indicadorVoto) {
     const pessoas = pessoasDoVoto();
     if (pessoas.length === 0) {
       painelVoto.replaceChildren();
@@ -632,296 +617,15 @@ function desenharIndicadores() {
   paineisIndicadores.replaceChildren(grafico(pessoasDoPeriodo(lista), lista.length));
 }
 
-function pessoasComVoto() {
-  const grupos = new Map();
-  sumulas.forEach((sumula) => {
-    sumula.votos.forEach((linha) => {
-      if (!linha.voto) return;
-      const chave = chavePessoa(linha);
-      const atual = grupos.get(chave) || { chave, nomes: new Map() };
-      atual.nomes.set(linha.nome, (atual.nomes.get(linha.nome) || 0) + 1);
-      grupos.set(chave, atual);
-    });
-  });
-  return [...grupos.values()]
-    .map((pessoa) => ({
-      chave: pessoa.chave,
-      nome: [...pessoa.nomes.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "pt-BR"))[0][0],
-    }))
-    .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
-}
-
-function corVoto(voto) {
-  if (voto === "Favorável") return "var(--color-green)";
-  if (voto === "Contrário") return "var(--color-error)";
-  if (voto === "Abstenção") return "var(--color-warning)";
-  return "var(--color-gray)";
-}
-
-function tiposPresentes(itens) {
-  const extras = [...new Set(itens.map((item) => item.voto))]
-    .filter((voto) => !ORDEM_VOTO.includes(voto))
-    .sort((a, b) => a.localeCompare(b, "pt-BR"));
-  return [...ORDEM_VOTO, ...extras];
-}
-
-function porcentagem(parte, total) {
-  if (!total) return "0%";
-  const valor = (parte * 100) / total;
-  return `${valor.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}%`;
-}
-
-function legendaVotos(itens, total) {
-  const lista = document.createElement("ul");
-  lista.className = "legenda-grafico";
-  itens.forEach((item) => {
-    const linha = document.createElement("li");
-    const marca = document.createElement("span");
-    marca.className = "marca";
-    marca.style.background = item.cor;
-    linha.append(
-      marca,
-      document.createTextNode(`${item.rotulo}: ${item.quantidade} (${porcentagem(item.quantidade, total)})`),
-    );
-    lista.append(linha);
-  });
-  return lista;
-}
-
-function pizzaVotos(itens) {
-  const tipos = tiposPresentes(itens);
-  const contagem = new Map(tipos.map((tipo) => [tipo, 0]));
-  itens.forEach((item) => contagem.set(item.voto, (contagem.get(item.voto) || 0) + 1));
-  const fatias = tipos.map((tipo) => ({
-    rotulo: tipo,
-    quantidade: contagem.get(tipo) || 0,
-    cor: corVoto(tipo),
-  }));
-  const total = itens.length;
-  const bloco = document.createElement("figure");
-  bloco.className = "grafico grafico-pizza";
-  const titulo = document.createElement("figcaption");
-  titulo.textContent = "Votos";
-  const desenho = svg("svg", { viewBox: "0 0 200 200", role: "img", "aria-label": "Proporção dos votos" });
-  const cx = 100;
-  const cy = 100;
-  const raio = 78;
-  let angulo = -Math.PI / 2;
-  fatias.forEach((item) => {
-    if (!item.quantidade || !total) return;
-    const giro = (item.quantidade / total) * Math.PI * 2;
-    const fim = angulo + giro;
-    let caminho;
-    if (giro >= Math.PI * 2 - 0.0001) {
-      caminho = `M ${cx} ${cy - raio} A ${raio} ${raio} 0 1 1 ${cx - 0.01} ${cy - raio} Z`;
-    } else {
-      const x1 = cx + raio * Math.cos(angulo);
-      const y1 = cy + raio * Math.sin(angulo);
-      const x2 = cx + raio * Math.cos(fim);
-      const y2 = cy + raio * Math.sin(fim);
-      const grande = giro > Math.PI ? 1 : 0;
-      caminho = `M ${cx} ${cy} L ${x1} ${y1} A ${raio} ${raio} 0 ${grande} 1 ${x2} ${y2} Z`;
-    }
-    const fatia = svg("path", { d: caminho, fill: item.cor });
-    const dica = svg("title", {});
-    dica.textContent = `${item.rotulo}: ${item.quantidade} (${porcentagem(item.quantidade, total)})`;
-    fatia.append(dica);
-    desenho.append(fatia);
-    angulo = fim;
-  });
-  const nota = document.createElement("p");
-  nota.className = "grafico-nota";
-  nota.textContent = "Linha sem X não entra.";
-  bloco.append(titulo, desenho, legendaVotos(fatias, total), nota);
-  return bloco;
-}
-
-function dataCurta(valor) {
-  const forma = String(valor || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
-  if (!forma) return "—";
-  return `${forma[3]}/${forma[2]}`;
-}
-
-function barrasDias(itens) {
-  const tipos = tiposPresentes(itens);
-  const porDia = new Map();
-  itens.forEach((item) => {
-    const atual = porDia.get(item.dia) || new Map();
-    atual.set(item.voto, (atual.get(item.voto) || 0) + 1);
-    porDia.set(item.dia, atual);
-  });
-  const dias = [...porDia.keys()].sort();
-  const margemEsq = 48;
-  const margemBaixo = 72;
-  const margemTopo = 16;
-  const larguraBarra = 32;
-  const alturaTrilho = 180;
-  const largura = margemEsq + Math.max(dias.length, 1) * larguraBarra + 8;
-  const altura = margemTopo + alturaTrilho + margemBaixo;
-  const bloco = document.createElement("figure");
-  bloco.className = "grafico grafico-dias";
-  const titulo = document.createElement("figcaption");
-  titulo.textContent = "Votos por dia";
-  const rolagem = document.createElement("div");
-  rolagem.className = "grafico-rolagem";
-  const desenho = svg("svg", {
-    viewBox: `0 0 ${largura} ${altura}`,
-    role: "img",
-    "aria-label": "Proporção dos votos em cada dia",
-  });
-  desenho.style.width = `${largura}px`;
-  desenho.style.height = `${altura}px`;
-  [100, 50, 0].forEach((marca) => {
-    const y = margemTopo + ((100 - marca) / 100) * alturaTrilho;
-    const linha = svg("line", {
-      x1: margemEsq,
-      y1: y,
-      x2: largura - 8,
-      y2: y,
-      stroke: "var(--color-border)",
-    });
-    const rotulo = svg("text", {
-      class: "grafico-texto",
-      x: margemEsq - 6,
-      y: y + 4,
-      "text-anchor": "end",
-      "font-size": "12",
-    });
-    rotulo.textContent = `${marca}%`;
-    desenho.append(linha, rotulo);
-  });
-  dias.forEach((dia, indice) => {
-    const contagem = porDia.get(dia);
-    const total = [...contagem.values()].reduce((soma, valor) => soma + valor, 0);
-    let y = margemTopo + alturaTrilho;
-    tipos.forEach((tipo) => {
-      const quantidade = contagem.get(tipo) || 0;
-      if (!quantidade || !total) return;
-      const trecho = (quantidade / total) * alturaTrilho;
-      y -= trecho;
-      const barra = svg("rect", {
-        x: margemEsq + indice * larguraBarra + 6,
-        y,
-        width: larguraBarra - 12,
-        height: trecho,
-        fill: corVoto(tipo),
-      });
-      const dica = svg("title", {});
-      dica.textContent = `${tipo}: ${quantidade} de ${total}`;
-      barra.append(dica);
-      desenho.append(barra);
-    });
-    const x = margemEsq + indice * larguraBarra + larguraBarra / 2;
-    const base = margemTopo + alturaTrilho + 8;
-    const rotulo = svg("text", {
-      class: "grafico-texto",
-      x: 0,
-      y: 0,
-      "font-size": "11",
-      "text-anchor": "start",
-      transform: `translate(${x} ${base}) rotate(45)`,
-    });
-    rotulo.textContent = dataCurta(dia);
-    desenho.append(rotulo);
-  });
-  rolagem.append(desenho);
-  const nota = document.createElement("p");
-  nota.className = "grafico-nota";
-  nota.textContent = "Cada barra soma 100% dos votos daquele dia. A quantidade está na dica.";
-  bloco.append(titulo, rolagem, nota);
-  return bloco;
-}
-
-function mostrarVotos(pessoa) {
-  listaVotos.querySelectorAll("button").forEach((botao) => {
-    botao.setAttribute("aria-pressed", botao.dataset.chave === pessoa.chave ? "true" : "false");
-  });
-  const itens = [];
-  sumulas.forEach((sumula) => {
-    sumula.votos.forEach((linha) => {
-      if (!linha.voto || chavePessoa(linha) !== pessoa.chave) return;
-      itens.push({
-        dia: diaDaSessao(sumula),
-        titulo: sumula.titulo,
-        documento: sumula.documento || "Súmula",
-        voto: linha.voto,
-      });
-    });
-  });
-  itens.sort((a, b) => b.dia.localeCompare(a.dia) || a.documento.localeCompare(b.documento, "pt-BR"));
-  const tabela = document.createElement("table");
-  tabela.className = "presenca-lista";
-  const cabecalho = document.createElement("thead");
-  const linhaCabecalho = document.createElement("tr");
-  ["Data", "Sessão", "Documento", "Voto"].forEach((rotulo) => {
-    const th = celula(rotulo, "th");
-    th.scope = "col";
-    linhaCabecalho.append(th);
-  });
-  cabecalho.append(linhaCabecalho);
-  const corpo = document.createElement("tbody");
-  itens.forEach((item) => {
-    const tr = document.createElement("tr");
-    const voto = celula(item.voto, "td");
-    voto.className = "presenca-valor";
-    voto.dataset.voto = item.voto;
-    tr.append(
-      celula(item.dia ? dataPorExtenso(item.dia) : "—", "td"),
-      celula(item.titulo, "td"),
-      celula(item.documento, "td"),
-      voto,
-    );
-    corpo.append(tr);
-  });
-  tabela.append(cabecalho, corpo);
-  const faixa = document.createElement("div");
-  faixa.className = "votos-graficos";
-  faixa.append(pizzaVotos(itens), barrasDias(itens));
-  painelVotos.replaceChildren(faixa, tabela);
-}
-
-function grupoVotos(titulo, pessoas, atual) {
-  const secao = document.createElement("section");
-  secao.className = "votos-grupo";
-  const cabeca = document.createElement("h3");
-  cabeca.textContent = titulo;
-  const lista = document.createElement("ul");
-  lista.className = "votos-pessoas";
-  pessoas.forEach((pessoa) => {
-    const item = document.createElement("li");
-    const botao = document.createElement("button");
-    botao.type = "button";
-    botao.className = atual ? "voto-pessoa voto-atual" : "voto-pessoa";
-    botao.dataset.chave = pessoa.chave;
-    botao.textContent = pessoa.nome;
-    botao.setAttribute("aria-pressed", "false");
-    botao.addEventListener("click", () => mostrarVotos(pessoa));
-    item.append(botao);
-    lista.append(item);
-  });
-  secao.append(cabeca, lista);
-  return secao;
-}
-
-function montarListaVotos() {
-  const pessoas = pessoasComVoto();
-  const atuais = pessoas.filter((pessoa) => eleitos.has(pessoa.chave));
-  const anteriores = pessoas.filter((pessoa) => !eleitos.has(pessoa.chave));
-  listaVotos.replaceChildren(grupoVotos("Atuais", atuais, true), grupoVotos("Anteriores", anteriores, false));
-  painelVotos.replaceChildren();
-  const nota = document.createElement("p");
-  nota.textContent = "Escolha um vereador.";
-  painelVotos.append(nota);
-}
-
-abrirIndicadores.addEventListener("click", async () => {
+async function abrirIndicador(voto) {
   try {
     await carregar();
     preencherFiltros();
-    selecionarAba(true);
+    selecionarIndicador(voto);
     filtrosIndicadores.hidden = false;
     erroIndicadores.hidden = true;
   } catch (falha) {
+    tituloIndicadores.textContent = voto ? "Indicadores de voto" : "Indicadores de presença";
     filtrosIndicadores.hidden = true;
     painelVoto.replaceChildren();
     paineisIndicadores.replaceChildren();
@@ -929,15 +633,10 @@ abrirIndicadores.addEventListener("click", async () => {
     erroIndicadores.hidden = false;
   }
   if (!dialogoIndicadores.open) dialogoIndicadores.showModal();
-});
+}
 
-abaVoto.addEventListener("click", () => {
-  if (chamadas) selecionarAba(true);
-});
-
-abaPresenca.addEventListener("click", () => {
-  if (chamadas) selecionarAba(false);
-});
+abrirVoto.addEventListener("click", () => abrirIndicador(true));
+abrirPresencaIndicador.addEventListener("click", () => abrirIndicador(false));
 
 filtroMes.addEventListener("change", () => {
   if (chamadas) desenharIndicadores();
@@ -947,16 +646,11 @@ filtroAno.addEventListener("change", () => {
   if (chamadas) desenharIndicadores();
 });
 
-abrir.addEventListener("click", async () => {
-  try {
-    await carregar();
-    painel.hidden = false;
-    erro.hidden = true;
-  } catch (falha) {
-    painel.hidden = true;
-    erro.hidden = false;
-  }
-  if (!dialogo.open) dialogo.showModal();
+abrir.addEventListener("click", () => {
+  const alvo = painel.hidden ? erro : painel;
+  const suave = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+  alvo.scrollIntoView({ behavior: suave, block: "start" });
+  if (alvo === painel) painel.focus();
 });
 
 anterior.addEventListener("click", () => {
@@ -971,23 +665,17 @@ abrirChamadaDia.addEventListener("click", () => {
   if (diaAberto) abrirChamada();
 });
 
-abrirVotos.addEventListener("click", async () => {
-  try {
-    await carregar();
-    await carregarEleitos();
-    montarListaVotos();
-    layoutVotos.hidden = false;
-    erroVotos.hidden = true;
-  } catch (falha) {
-    layoutVotos.hidden = true;
-    erroVotos.hidden = false;
-  }
-  if (!dialogoVotos.open) dialogoVotos.showModal();
-});
-
-ligar(dialogo, fechar);
 ligar(dialogoDia, fecharDia);
 ligar(dialogoChamada, fecharChamada);
-ligar(dialogoVotos, fecharVotos);
 ligar(dialogoIndicadores, fecharIndicadores);
+
+carregar()
+  .then(() => {
+    painel.hidden = false;
+    erro.hidden = true;
+  })
+  .catch(() => {
+    painel.hidden = true;
+    erro.hidden = false;
+  });
 })();
