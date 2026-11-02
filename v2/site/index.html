@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Analândia em Dados</title>
-    <link rel="stylesheet" href="css/tokens.css?v=14">
+    <link rel="stylesheet" href="css/tokens.css?v=20">
   </head>
   <body>
     <a class="skip" href="#conteudo">Ir para o conteúdo</a>
@@ -18,24 +18,41 @@
     <main id="conteudo">
       <div class="wrap">
         <h1>Analândia em Dados</h1>
-        <p class="lede">Acompanhamento do que a Câmara e os atos oficiais publicam. O arquivo reúne os documentos já coletados.</p>
-        <section class="ano-sessoes" aria-labelledby="titulo-vereadores">
-          <h2 id="titulo-vereadores">Vereadores</h2>
-          <div class="botoes-capa">
-            <button class="abrir-calendario" type="button" id="abrir-vereadores">Conheça os(as) vereadores(as)</button>
-            <button class="abrir-analise" type="button" id="abrir-vereadores-indicadores">Indicadores</button>
-          </div>
+        <p class="lede">Acompanhe de perto a dinâmica de trabalho dos(as) vereadores(as) eleitos da Câmara Municipal de Analândia</p>
+        <section class="ano-sessoes" aria-labelledby="titulo-legisla">
+          <h2 id="titulo-legisla">Conheça quem Legisla</h2>
+          <div class="eleitos-capa" id="eleitos-capa"></div>
         </section>
         <section class="ano-sessoes" aria-labelledby="sessoes-2026">
-          <h2 id="sessoes-2026">Sessões da Câmara Municipal de Analândia</h2>
+          <h2 id="sessoes-2026">Saiba o que está sendo discutido</h2>
           <div class="botoes-capa">
             <button class="abrir-calendario" type="button" id="abrir-calendario">Veja o calendário das sessões</button>
             <button class="abrir-analise" type="button" id="abrir-analise">Indicadores</button>
-            <div class="botoes-presenca">
-              <button class="abrir-calendario" type="button" id="abrir-presenca">Veja as chamadas das sessões</button>
-              <button class="abrir-calendario" type="button" id="abrir-votos-vereador">Veja os votos dos vereadores</button>
-              <button class="abrir-analise" type="button" id="abrir-presenca-indicadores">Indicadores</button>
+          </div>
+          <div class="presenca-capa" id="painel-presenca" tabindex="-1" aria-label="Presença nas sessões">
+            <div class="mes-nav">
+              <button class="mes-btn" type="button" id="presenca-anterior" aria-label="Mês anterior">
+                <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <p class="mes-nome" id="presenca-mes" aria-live="polite"></p>
+              <button class="mes-btn" type="button" id="presenca-proximo" aria-label="Próximo mês">
+                <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
             </div>
+            <div id="presenca-grade"></div>
+          </div>
+          <p class="dialogo-erro" id="erro-presenca" hidden>Não foi possível ler as chamadas.</p>
+          <div class="botoes-capa">
+            <button class="abrir-calendario" type="button" id="abrir-presenca">Veja as chamadas das sessões</button>
+            <button class="abrir-analise" type="button" id="abrir-indicadores-voto">Indicadores de voto</button>
+            <button class="abrir-analise" type="button" id="abrir-indicadores-presenca">Indicadores de presença</button>
+          </div>
+        </section>
+        <section class="ano-sessoes" aria-labelledby="titulo-vereadores">
+          <h2 id="titulo-vereadores">Candidatos para a Câmara - ano 2024</h2>
+          <div class="botoes-capa">
+            <button class="abrir-calendario" type="button" id="abrir-vereadores">Conheça os(as) vereadores(as)</button>
+            <button class="abrir-analise" type="button" id="abrir-vereadores-indicadores">Indicadores</button>
           </div>
         </section>
         <section class="ano-sessoes" aria-labelledby="titulo-audiencias">
@@ -97,7 +114,7 @@
     <dialog class="analise-dialogo" id="vereadores-dados" aria-labelledby="titulo-vereadores-dados">
       <div class="vereadores-topo" id="vereadores-topo">
         <div class="dialogo-topo">
-          <h2 id="titulo-vereadores-dados">Conheça os(as) vereadores(as)</h2>
+          <h2 id="titulo-vereadores-dados">Candidatos para a Câmara - ano 2024</h2>
           <button class="fechar" type="button" id="fechar-vereadores">Fechar</button>
         </div>
         <div class="vereadores-filtros">
@@ -153,33 +170,10 @@
       <div id="paineis-audiencias"></div>
       <p class="dialogo-erro" id="erro-audiencias" hidden>Não foi possível ler os indicadores.</p>
     </dialog>
-    <dialog class="presenca-dialogo" id="presenca-calendario" aria-labelledby="titulo-presenca">
-      <div class="dialogo-topo">
-        <h2 id="titulo-presenca">Presença nas sessões</h2>
-        <button class="fechar" type="button" id="fechar-presenca">Fechar</button>
-      </div>
-      <div id="painel-presenca">
-        <div class="mes-nav">
-          <button class="mes-btn" type="button" id="presenca-anterior" aria-label="Mês anterior">
-            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-          <p class="mes-nome" id="presenca-mes" aria-live="polite"></p>
-          <button class="mes-btn" type="button" id="presenca-proximo" aria-label="Próximo mês">
-            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-        </div>
-        <div id="presenca-grade"></div>
-      </div>
-      <p class="dialogo-erro" id="erro-presenca" hidden>Não foi possível ler as chamadas.</p>
-    </dialog>
     <dialog class="presenca-dialogo" id="presenca-indicadores" aria-labelledby="titulo-presenca-indicadores">
       <div class="dialogo-topo">
-        <h2 id="titulo-presenca-indicadores">Indicadores</h2>
+        <h2 id="titulo-presenca-indicadores">Indicadores de voto</h2>
         <button class="fechar" type="button" id="fechar-presenca-indicadores">Fechar</button>
-      </div>
-      <div class="abas" role="tablist" aria-label="Tipo de indicador">
-        <button class="aba" type="button" role="tab" id="aba-voto" aria-selected="true" aria-controls="painel-voto">Indicadores de voto</button>
-        <button class="aba" type="button" role="tab" id="aba-presenca" aria-selected="false" aria-controls="paineis-presenca-indicadores">Indicadores de presença</button>
       </div>
       <div class="vereadores-filtros" id="filtros-presenca">
         <label class="vereadores-filtro" for="filtro-presenca-ano">Ano
@@ -193,8 +187,8 @@
           </select>
         </label>
       </div>
-      <div id="painel-voto" role="tabpanel" aria-labelledby="aba-voto"></div>
-      <div id="paineis-presenca-indicadores" role="tabpanel" aria-labelledby="aba-presenca" hidden></div>
+      <div id="painel-voto"></div>
+      <div id="paineis-presenca-indicadores" hidden></div>
       <p class="grafico-nota" id="presenca-vazio" hidden>Não há voto nesse período.</p>
       <p class="dialogo-erro" id="erro-presenca-indicadores" hidden>Não foi possível ler as chamadas.</p>
     </dialog>
@@ -213,21 +207,11 @@
       </div>
       <div id="paineis-presenca-chamada"></div>
     </dialog>
-    <dialog class="presenca-dialogo" id="votos-vereador" aria-labelledby="titulo-votos-vereador">
-      <div class="dialogo-topo">
-        <h2 id="titulo-votos-vereador">Votos dos vereadores</h2>
-        <button class="fechar" type="button" id="fechar-votos-vereador">Fechar</button>
-      </div>
-      <div class="votos-layout" id="layout-votos-vereador">
-        <div id="lista-votos-vereador"></div>
-        <div id="painel-votos-vereador"></div>
-      </div>
-      <p class="dialogo-erro" id="erro-votos-vereador" hidden>Não foi possível ler as súmulas.</p>
-    </dialog>
-    <script src="js/vereadores.js?v=9"></script>
+    <script src="js/vereadores.js?v=11"></script>
+    <script src="js/eleitos-capa.js?v=1"></script>
     <script src="js/calendario.js"></script>
     <script src="js/analise.js"></script>
     <script src="js/audiencias.js?v=3"></script>
-    <script src="js/presenca.js?v=7"></script>
+    <script src="js/presenca.js?v=9"></script>
   </body>
 </html>

@@ -35,9 +35,9 @@ const MARCAS = {
 };
 
 const BLOCOS = [
-  { classe: "eleito", titulo: "Eleitos", recolhivel: false, modificador: "vereadores-bloco-eleito" },
-  { classe: "suplente", titulo: "Suplentes", recolhivel: true, modificador: "vereadores-bloco-suplente" },
-  { classe: "nao_eleito", titulo: "Não eleitos", recolhivel: true, modificador: "vereadores-bloco-nao-eleito" },
+  { classe: "eleito", titulo: "Eleitos", recolhivel: true, aberto: false, modificador: "vereadores-bloco-eleito" },
+  { classe: "suplente", titulo: "Suplentes", recolhivel: true, aberto: false, modificador: "vereadores-bloco-suplente" },
+  { classe: "nao_eleito", titulo: "Não eleitos", recolhivel: true, aberto: false, modificador: "vereadores-bloco-nao-eleito" },
 ];
 
 function classe(texto) {
@@ -129,12 +129,12 @@ function montar(cadastro) {
 
     if (bloco.recolhivel) {
       grade.id = `vereadores-${bloco.classe}`;
-      grade.hidden = true;
       const alternar = document.createElement("button");
       alternar.type = "button";
       alternar.className = "vereadores-alternar";
       alternar.dataset.titulo = bloco.titulo;
-      definirAberto(grade, alternar, false);
+      alternar.dataset.inicial = bloco.aberto ? "true" : "false";
+      definirAberto(grade, alternar, Boolean(bloco.aberto));
       alternar.addEventListener("click", () => {
         definirAberto(grade, alternar, grade.hidden);
       });
@@ -280,7 +280,7 @@ function aplicarFiltro() {
     const alternar = secao.querySelector(".vereadores-alternar");
     if (!alternar) continue;
     if (ativo) definirAberto(grade, alternar, true);
-    else definirAberto(grade, alternar, false);
+    else definirAberto(grade, alternar, alternar.dataset.inicial === "true");
   }
 }
 
