@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Analândia em Dados</title>
-    <link rel="stylesheet" href="css/tokens.css?v=20">
+    <link rel="stylesheet" href="css/tokens.css?v=22">
   </head>
   <body>
     <a class="skip" href="#conteudo">Ir para o conteúdo</a>
@@ -25,9 +25,12 @@
         </section>
         <section class="ano-sessoes" aria-labelledby="sessoes-2026">
           <h2 id="sessoes-2026">Saiba o que está sendo discutido</h2>
+          <p class="subtitulo">Clique no dia do calendário abaixo para ver os(as) Vereadores(as) presentes nas sessões e como votaram</p>
           <div class="botoes-capa">
             <button class="abrir-calendario" type="button" id="abrir-calendario">Veja o calendário das sessões</button>
-            <button class="abrir-analise" type="button" id="abrir-analise">Indicadores</button>
+            <button class="abrir-analise" type="button" id="abrir-analise">Indicadores das sessões</button>
+            <button class="abrir-analise" type="button" id="abrir-indicadores-voto">Indicadores de voto</button>
+            <button class="abrir-analise" type="button" id="abrir-indicadores-presenca">Indicadores de presença</button>
           </div>
           <div class="presenca-capa" id="painel-presenca" tabindex="-1" aria-label="Presença nas sessões">
             <div class="mes-nav">
@@ -42,18 +45,6 @@
             <div id="presenca-grade"></div>
           </div>
           <p class="dialogo-erro" id="erro-presenca" hidden>Não foi possível ler as chamadas.</p>
-          <div class="botoes-capa">
-            <button class="abrir-calendario" type="button" id="abrir-presenca">Veja as chamadas das sessões</button>
-            <button class="abrir-analise" type="button" id="abrir-indicadores-voto">Indicadores de voto</button>
-            <button class="abrir-analise" type="button" id="abrir-indicadores-presenca">Indicadores de presença</button>
-          </div>
-        </section>
-        <section class="ano-sessoes" aria-labelledby="titulo-vereadores">
-          <h2 id="titulo-vereadores">Candidatos para a Câmara - ano 2024</h2>
-          <div class="botoes-capa">
-            <button class="abrir-calendario" type="button" id="abrir-vereadores">Conheça os(as) vereadores(as)</button>
-            <button class="abrir-analise" type="button" id="abrir-vereadores-indicadores">Indicadores</button>
-          </div>
         </section>
         <section class="ano-sessoes" aria-labelledby="titulo-audiencias">
           <h2 id="titulo-audiencias">Audiências públicas</h2>
@@ -114,7 +105,8 @@
     <dialog class="analise-dialogo" id="vereadores-dados" aria-labelledby="titulo-vereadores-dados">
       <div class="vereadores-topo" id="vereadores-topo">
         <div class="dialogo-topo">
-          <h2 id="titulo-vereadores-dados">Candidatos para a Câmara - ano 2024</h2>
+          <h2 id="titulo-vereadores-dados">Saiba quem se candidatou em 2024</h2>
+          <button class="abrir-analise" type="button" id="abrir-vereadores-indicadores">Indicadores</button>
           <button class="fechar" type="button" id="fechar-vereadores">Fechar</button>
         </div>
         <div class="vereadores-filtros">
@@ -195,23 +187,23 @@
     <dialog class="presenca-dialogo" id="presenca-dia" aria-labelledby="titulo-presenca-dia">
       <div class="dialogo-topo">
         <h2 id="titulo-presenca-dia">Votos do dia</h2>
-        <button class="vereadores-alternar" type="button" id="abrir-chamada-dia">Chamada</button>
+        <button class="vereadores-alternar" type="button" id="abrir-chamada-dia">Lista de presença</button>
         <button class="fechar" type="button" id="fechar-presenca-dia">Fechar</button>
       </div>
       <div id="paineis-presenca-dia"></div>
     </dialog>
     <dialog class="presenca-dialogo" id="presenca-chamada" aria-labelledby="titulo-presenca-chamada">
       <div class="dialogo-topo">
-        <h2 id="titulo-presenca-chamada">Chamada</h2>
+        <h2 id="titulo-presenca-chamada">Lista de presença</h2>
         <button class="fechar" type="button" id="fechar-presenca-chamada">Fechar</button>
       </div>
       <div id="paineis-presenca-chamada"></div>
     </dialog>
+    <script src="js/eleitos-capa.js?v=2"></script>
     <script src="js/vereadores.js?v=11"></script>
-    <script src="js/eleitos-capa.js?v=1"></script>
     <script src="js/calendario.js"></script>
     <script src="js/analise.js"></script>
     <script src="js/audiencias.js?v=3"></script>
-    <script src="js/presenca.js?v=9"></script>
+    <script src="js/presenca.js?v=10"></script>
   </body>
 </html>

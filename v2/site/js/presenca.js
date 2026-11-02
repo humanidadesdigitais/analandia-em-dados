@@ -16,7 +16,6 @@ const MESES = [
 
 const DIAS = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
 
-const abrir = document.querySelector("#abrir-presenca");
 const dialogoDia = document.querySelector("#presenca-dia");
 const fecharDia = document.querySelector("#fechar-presenca-dia");
 const painel = document.querySelector("#painel-presenca");
@@ -644,13 +643,6 @@ filtroMes.addEventListener("change", () => {
 
 filtroAno.addEventListener("change", () => {
   if (chamadas) desenharIndicadores();
-});
-
-abrir.addEventListener("click", () => {
-  const alvo = painel.hidden ? erro : painel;
-  const suave = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
-  alvo.scrollIntoView({ behavior: suave, block: "start" });
-  if (alvo === painel) painel.focus();
 });
 
 anterior.addEventListener("click", () => {
