@@ -6,12 +6,19 @@ const topo = document.querySelector("#vereadores-topo");
 const paineis = document.querySelector("#paineis-vereadores");
 const erro = document.querySelector("#erro-vereadores");
 const filtroNome = document.querySelector("#filtro-nome");
+const listaNomes = document.querySelector("#lista-nomes");
 const filtroPartido = document.querySelector("#filtro-partido");
+const filtroVotos = document.querySelector("#filtro-votos");
+const resetarFiltros = document.querySelector("#resetar-filtros");
+let pessoas = [];
+let escolha = null;
+let indiceAtivo = -1;
 
 const abrirIndicadores = document.querySelector("#abrir-vereadores-indicadores");
 const dialogoIndicadores = document.querySelector("#vereadores-indicadores");
 const fecharIndicadores = document.querySelector("#fechar-vereadores-indicadores");
 const paineisIndicadores = document.querySelector("#paineis-vereadores-indicadores");
+const filtroClasse = document.querySelector("#filtro-classe");
 const erroIndicadores = document.querySelector("#erro-vereadores-indicadores");
 
 const SVG = "http://www.w3.org/2000/svg";
@@ -57,9 +64,15 @@ function cartao(pessoa) {
   const bloco = document.createElement("article");
   bloco.className = "item";
   bloco.dataset.busca = normalizar(`${pessoa.nome_completo} ${pessoa.nome_urna}`);
+  bloco.dataset.numero = String(pessoa.numero);
   bloco.dataset.partido = pessoa.partido;
+  bloco.dataset.votos = pessoa.votos_nominais == null ? "" : String(pessoa.votos_nominais);
   const titulo = document.createElement("h4");
-  titulo.textContent = `${pessoa.nome_completo} (${pessoa.nome_urna})`;
+  titulo.append(pessoa.nome_completo);
+  const urna = document.createElement("span");
+  urna.className = "nome-candidato";
+  urna.textContent = pessoa.nome_urna;
+  titulo.append(urna);
   const meta = document.createElement("dl");
   meta.className = "meta";
   const votos = pessoa.votos_nominais == null
@@ -91,6 +104,7 @@ function montar(cadastro) {
     .sort((a, b) => a.localeCompare(b, "pt-BR"));
   filtroPartido.replaceChildren(new Option("Todos", ""));
   for (const sigla of siglas) filtroPartido.append(new Option(sigla, sigla));
+  pessoas = cadastro.vereadores;
 
   for (const bloco of BLOCOS) {
     const secao = document.createElement("section");
@@ -132,16 +146,112 @@ function montar(cadastro) {
   }
 }
 
+function minimoVotos() {
+  if (filtroVotos.value === "") return null;
+  const numero = Number(filtroVotos.value);
+  return Number.isFinite(numero) ? numero : null;
+}
+
 function filtroAtivo() {
-  return normalizar(filtroNome.value) !== "" || filtroPartido.value !== "";
+  return normalizar(filtroNome.value) !== "" || filtroPartido.value !== "" || minimoVotos() != null;
 }
 
 function combina(cartao) {
   const nome = normalizar(filtroNome.value);
   const partido = filtroPartido.value;
-  if (nome && !cartao.dataset.busca.includes(nome)) return false;
+  const minimo = minimoVotos();
+  if (escolha) {
+    if (cartao.dataset.numero !== escolha) return false;
+  } else if (nome && !cartao.dataset.busca.includes(nome)) {
+    return false;
+  }
   if (partido && cartao.dataset.partido !== partido) return false;
+  if (minimo != null) {
+    if (cartao.dataset.votos === "") return false;
+    if (Number(cartao.dataset.votos) < minimo) return false;
+  }
   return true;
+}
+
+function pessoasDaLista() {
+  const nome = normalizar(filtroNome.value);
+  if (!nome) return pessoas;
+  return pessoas.filter((pessoa) => normalizar(`${pessoa.nome_completo} ${pessoa.nome_urna}`).includes(nome));
+}
+
+function desenharLista() {
+  const visiveis = pessoasDaLista();
+  listaNomes.replaceChildren();
+  if (visiveis.length === 0) {
+    const vazio = document.createElement("li");
+    vazio.className = "par-vazio";
+    vazio.textContent = "Nenhum registro";
+    listaNomes.append(vazio);
+    return;
+  }
+  visiveis.forEach((pessoa, indice) => {
+    const item = document.createElement("li");
+    const botao = document.createElement("button");
+    botao.type = "button";
+    botao.setAttribute("role", "option");
+    botao.id = `nome-opcao-${indice}`;
+    botao.setAttribute("aria-selected", indice === indiceAtivo ? "true" : "false");
+    const completo = document.createElement("span");
+    completo.textContent = pessoa.nome_completo;
+    const urna = document.createElement("span");
+    urna.className = "nome-candidato";
+    urna.textContent = pessoa.nome_urna;
+    botao.append(completo, urna);
+    botao.addEventListener("mousedown", (evento) => evento.preventDefault());
+    botao.addEventListener("click", () => escolher(pessoa));
+    item.append(botao);
+    listaNomes.append(item);
+  });
+  const ativo = listaNomes.querySelector('[aria-selected="true"]');
+  if (ativo) {
+    filtroNome.setAttribute("aria-activedescendant", ativo.id);
+    ativo.scrollIntoView({ block: "nearest" });
+  } else {
+    filtroNome.removeAttribute("aria-activedescendant");
+  }
+}
+
+function abrirLista() {
+  desenharLista();
+  listaNomes.hidden = false;
+  filtroNome.setAttribute("aria-expanded", "true");
+}
+
+function fecharLista() {
+  listaNomes.hidden = true;
+  filtroNome.setAttribute("aria-expanded", "false");
+  filtroNome.removeAttribute("aria-activedescendant");
+  indiceAtivo = -1;
+}
+
+function escolher(pessoa) {
+  escolha = String(pessoa.numero);
+  filtroNome.value = pessoa.nome_completo;
+  fecharLista();
+  aplicarFiltro();
+}
+
+function moverLista(passo) {
+  const total = listaNomes.querySelectorAll('[role="option"]').length;
+  if (total === 0) return;
+  if (listaNomes.hidden) abrirLista();
+  indiceAtivo = indiceAtivo < 0 ? 0 : (indiceAtivo + passo + total) % total;
+  desenharLista();
+}
+
+function limparFiltros() {
+  escolha = null;
+  indiceAtivo = -1;
+  filtroNome.value = "";
+  filtroPartido.value = "";
+  filtroVotos.value = "";
+  fecharLista();
+  aplicarFiltro();
 }
 
 function aplicarFiltro() {
@@ -285,27 +395,59 @@ function barras(titulo, itens, cor, nota) {
   return bloco;
 }
 
-function montarIndicadores(indicadores) {
-  const sexo = indicadores.sexo.map((item) => ({ ...item, cor: CORES[item.rotulo] }));
-  const totalizacao = indicadores.totalizacao_eleitos.map((item) => ({ ...item, cor: CORES[item.rotulo] }));
-  const pessoas = sexo.reduce((soma, item) => soma + item.quantidade, 0);
-  const eleitos = totalizacao.reduce((soma, item) => soma + item.quantidade, 0);
-  paineisIndicadores.replaceChildren(
-    pizza("Homens e mulheres", sexo, `Proporção dos ${pessoas} registros do cadastro.`),
-    barras(
-      "Candidatos por partido",
-      indicadores.partidos.map((item) => ({ rotulo: item.partido, valor: item.quantidade })),
-      "var(--color-info)",
-      `Quantidade nos ${pessoas} registros do cadastro.`,
-    ),
-    pizza("Eleitos por QP e por média", totalizacao, `Proporção dos ${eleitos} eleitos.`),
-    barras(
-      "Votos nominais por eleito",
-      indicadores.votos_eleitos.map((item) => ({ rotulo: item.nome_urna, valor: item.votos_nominais })),
-      "var(--color-green)",
-      "Cada barra é o total de votos nominais do eleito.",
-    ),
-  );
+function rotuloSexo(sexo) {
+  if (sexo === "MASC.") return "Homens";
+  if (sexo === "FEM.") return "Mulheres";
+  return "";
+}
+
+function contar(lista, campo) {
+  const totais = new Map();
+  for (const item of lista) {
+    const chave = item[campo];
+    totais.set(chave, (totais.get(chave) || 0) + 1);
+  }
+  return totais;
+}
+
+function notaVotos(semPublicacao) {
+  if (semPublicacao === 0) return "Cada barra é o total de votos nominais.";
+  if (semPublicacao === 1) return "Cada barra é o total de votos nominais. 1 registro não tem voto nominal publicado.";
+  return `Cada barra é o total de votos nominais. ${semPublicacao} registros não têm voto nominal publicado.`;
+}
+
+function montarIndicadores(cadastro) {
+  const classeFiltro = filtroClasse.value;
+  const grupo = classeFiltro
+    ? cadastro.filter((pessoa) => classe(pessoa.totalizacao) === classeFiltro)
+    : cadastro;
+  const eleitos = cadastro.filter((pessoa) => classe(pessoa.totalizacao) === "eleito");
+  const sexos = ["Homens", "Mulheres"].map((rotulo) => ({
+    rotulo,
+    quantidade: grupo.filter((pessoa) => rotuloSexo(pessoa.sexo) === rotulo).length,
+    cor: CORES[rotulo],
+  }));
+  const partidos = [...contar(grupo, "partido").entries()]
+    .map(([partido, quantidade]) => ({ rotulo: partido, valor: quantidade }))
+    .sort((a, b) => b.valor - a.valor || a.rotulo.localeCompare(b.rotulo, "pt-BR"));
+  const semPublicacao = grupo.filter((pessoa) => pessoa.votos_nominais == null).length;
+  const votos = grupo
+    .filter((pessoa) => pessoa.votos_nominais != null)
+    .sort((a, b) => b.votos_nominais - a.votos_nominais || a.nome_urna.localeCompare(b.nome_urna, "pt-BR"))
+    .map((pessoa) => ({ rotulo: pessoa.nome_urna, valor: pessoa.votos_nominais }));
+  const paineis = [
+    pizza("Homens e mulheres", sexos, `Proporção dos ${grupo.length} registros do cadastro.`),
+    barras("Candidatos por partido", partidos, "var(--color-info)", `Quantidade nos ${grupo.length} registros do cadastro.`),
+  ];
+  if (!classeFiltro || classeFiltro === "eleito") {
+    const totalizacao = contar(eleitos, "totalizacao");
+    paineis.push(pizza("Eleitos por QP e por média", [
+      { rotulo: "Eleito por QP", quantidade: totalizacao.get("Eleito por QP") || 0, cor: CORES["Eleito por QP"] },
+      { rotulo: "Eleito por média", quantidade: totalizacao.get("Eleito por média") || 0, cor: CORES["Eleito por média"] },
+    ], `Proporção dos ${eleitos.length} eleitos.`));
+  }
+  paineis.push(barras("Votos nominais", votos, "var(--color-green)", notaVotos(semPublicacao)));
+  paineisIndicadores.replaceChildren(...paineis);
 }
 
 async function lerJson(url, campo) {
@@ -327,8 +469,12 @@ function ligarDialogo(alvo, botao) {
 }
 
 abrir.addEventListener("click", async () => {
+  escolha = null;
+  indiceAtivo = -1;
   filtroNome.value = "";
   filtroPartido.value = "";
+  filtroVotos.value = "";
+  fecharLista();
   try {
     montar(await lerJson("../dados/silver/vereadores/cadastro.json", "vereadores"));
     aplicarFiltro();
@@ -343,23 +489,57 @@ abrir.addEventListener("click", async () => {
   medirTopo();
 });
 
-filtroNome.addEventListener("input", aplicarFiltro);
+filtroNome.addEventListener("input", () => {
+  escolha = null;
+  indiceAtivo = -1;
+  abrirLista();
+  aplicarFiltro();
+});
+filtroNome.addEventListener("focus", abrirLista);
+filtroNome.addEventListener("click", abrirLista);
+filtroNome.addEventListener("keydown", (evento) => {
+  if (evento.key === "ArrowDown") {
+    evento.preventDefault();
+    moverLista(1);
+  } else if (evento.key === "ArrowUp") {
+    evento.preventDefault();
+    moverLista(-1);
+  } else if (evento.key === "Enter" && !listaNomes.hidden && indiceAtivo >= 0) {
+    evento.preventDefault();
+    const visiveis = pessoasDaLista();
+    if (visiveis[indiceAtivo]) escolher(visiveis[indiceAtivo]);
+  } else if (evento.key === "Escape" && !listaNomes.hidden) {
+    evento.stopPropagation();
+    fecharLista();
+  }
+});
+document.addEventListener("click", (evento) => {
+  if (!filtroNome.closest(".vereadores-filtro").contains(evento.target)) fecharLista();
+});
 filtroPartido.addEventListener("change", aplicarFiltro);
+filtroVotos.addEventListener("input", aplicarFiltro);
+resetarFiltros.addEventListener("click", limparFiltros);
 window.addEventListener("resize", () => {
   if (dialogo.open) medirTopo();
 });
 
+let cadastroIndicadores = null;
+
+filtroClasse.addEventListener("change", () => {
+  if (cadastroIndicadores) montarIndicadores(cadastroIndicadores);
+});
+
 abrirIndicadores.addEventListener("click", async () => {
+  filtroClasse.value = "";
   try {
-    const lido = await lerJson("../dados/gold/vereadores/indicadores.json");
-    if (!Array.isArray(lido.sexo) || !Array.isArray(lido.partidos)
-      || !Array.isArray(lido.totalizacao_eleitos) || !Array.isArray(lido.votos_eleitos)) {
-      throw new Error("formato");
-    }
-    montarIndicadores(lido);
+    const lido = await lerJson("../dados/silver/vereadores/cadastro.json");
+    if (!Array.isArray(lido.vereadores)) throw new Error("formato");
+    cadastroIndicadores = lido.vereadores;
+    montarIndicadores(cadastroIndicadores);
     paineisIndicadores.hidden = false;
     erroIndicadores.hidden = true;
   } catch (falha) {
+    cadastroIndicadores = null;
     paineisIndicadores.hidden = true;
     erroIndicadores.hidden = false;
   }

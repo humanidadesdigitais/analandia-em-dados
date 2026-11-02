@@ -1,0 +1,66 @@
+{
+  "realizada_em": "2024-02-27",
+  "presidente": "Ciro João Bertoli",
+  "primeiro_secretario": null,
+  "segundo_secretario": null,
+  "documento": "Parecer de Comissão - Nº1/2024",
+  "numero_ata": null,
+  "tipo_votacao": "Discussão Simples - Maioria Simples",
+  "resultado": "Reprovado",
+  "votos": [
+    {
+      "nome": "Ciro João Bertoli",
+      "sigla": "PSB",
+      "papel": "Presidente",
+      "voto": null
+    },
+    {
+      "nome": "Dirceu de Sousa",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Edivaldo Mistro",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Elaine Cristina Fernandes",
+      "sigla": "REPUBLICANOS",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Leandro Santarpio",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Valdemir Mascia",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Contrário"
+    }
+  ]
+}

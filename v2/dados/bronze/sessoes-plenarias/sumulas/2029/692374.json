@@ -1,0 +1,66 @@
+{
+  "realizada_em": "2024-05-14",
+  "presidente": "Rogerio Conceição dos Santos",
+  "primeiro_secretario": null,
+  "segundo_secretario": null,
+  "documento": "Ata Ordinária - Nº2/2024",
+  "numero_ata": "2/2024",
+  "tipo_votacao": "Discussão Simples - Maioria Simples",
+  "resultado": "Aprovado",
+  "votos": [
+    {
+      "nome": "Ciro João Bertoli",
+      "sigla": "PSB",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Dirceu de Sousa",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Edivaldo Mistro",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "João Carlos Barbosa Sodelli",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Leandro Santarpio",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Rogerio Conceição dos Santos",
+      "sigla": "REPUBLICANOS",
+      "papel": "Presidente",
+      "voto": null
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Favorável"
+    }
+  ]
+}
