@@ -633,11 +633,17 @@ main {
 .vereadores-filtros {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
   gap: var(--space-3);
   margin-top: var(--space-3);
 }
 
+.vereadores-filtros .vereadores-alternar {
+  flex: 0 0 auto;
+}
+
 .vereadores-filtro {
+  position: relative;
   display: flex;
   flex: 1 1 240px;
   flex-direction: column;
@@ -646,6 +652,70 @@ main {
   font-size: var(--text-sm);
   font-weight: 600;
   line-height: var(--leading-sm);
+}
+
+.nomes-lista {
+  position: absolute;
+  z-index: var(--z-dropdown);
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 240px;
+  margin: var(--space-1) 0 0;
+  padding: var(--space-1);
+  overflow: auto;
+  list-style: none;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--space-1);
+  box-shadow: var(--shadow-hover);
+}
+
+.nomes-lista[hidden] {
+  display: none;
+}
+
+.nomes-lista button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 44px;
+  padding: var(--space-2);
+  background: transparent;
+  color: var(--color-text);
+  border: 0;
+  border-radius: var(--space-1);
+  font: inherit;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  line-height: var(--leading-sm);
+  text-align: left;
+  cursor: pointer;
+}
+
+.nomes-lista button:hover,
+.nomes-lista button[aria-selected="true"] {
+  background: var(--color-bg);
+}
+
+.nomes-lista button:active {
+  background: var(--color-border);
+}
+
+.nomes-lista button:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.nomes-lista .nome-candidato {
+  margin-top: 0;
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
+}
+
+.nomes-lista .par-vazio {
+  padding: var(--space-2);
 }
 
 .vereadores-filtro input,
@@ -704,6 +774,44 @@ main {
   color: var(--color-primary);
   font-size: var(--text-lg);
   line-height: var(--leading-lg);
+}
+
+.arquivo-ano {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-4);
+  padding: var(--space-3);
+  border: 2px solid var(--color-border);
+  border-radius: var(--space-2);
+  background: var(--color-bg);
+}
+
+.arquivo-ano-topo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.arquivo-ano-topo h2 {
+  flex: 1;
+  margin: 0;
+  color: var(--color-primary);
+  font-size: var(--text-2xl);
+  line-height: var(--leading-2xl);
+}
+
+.arquivo-ano-corpo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.arquivo-ano-corpo[hidden] {
+  display: none;
 }
 
 .vereadores-bloco {
@@ -779,6 +887,14 @@ main {
   color: var(--color-primary);
   font-size: var(--text-lg);
   line-height: var(--leading-lg);
+}
+
+.nome-candidato {
+  display: block;
+  margin-top: var(--space-1);
+  font-size: var(--text-base);
+  line-height: var(--leading-base);
+  font-weight: 400;
 }
 
 .grafico {
@@ -1053,6 +1169,19 @@ main {
 .calendario-dialogo .legenda {
   margin-top: var(--space-3);
   margin-bottom: 0;
+}
+
+.calendario-dialogo .info-rodape {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--space-3);
+}
+
+.calendario-dialogo .info-rodape .balao {
+  top: auto;
+  bottom: 100%;
+  padding-top: 0;
+  padding-bottom: var(--space-2);
 }
 
 .mes abbr {
@@ -1377,6 +1506,29 @@ main {
   line-height: var(--leading-lg);
 }
 
+.sumula-topo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.sumula-topo h3 {
+  flex: 1;
+  margin: 0;
+}
+
+.sumula-corpo {
+  margin-top: var(--space-3);
+}
+
+.sumula-corpo[hidden] {
+  display: none;
+}
+
+.sumula-mesa p {
+  margin: 0;
+}
+
 .presenca-bloco p {
   margin: 0 0 var(--space-3);
 }
@@ -1415,6 +1567,152 @@ main {
   font-weight: 700;
 }
 
+.presenca-valor[data-voto="Favorável"] {
+  color: var(--color-green);
+  font-weight: 700;
+}
+
+.presenca-valor[data-voto="Contrário"] {
+  color: var(--color-error);
+  font-weight: 700;
+}
+
+.presenca-valor[data-voto="Abstenção"] {
+  color: var(--color-warning);
+  font-weight: 700;
+}
+
+.abas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.aba,
+.voto-pessoa {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--space-1);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.voto-pessoa {
+  width: 100%;
+  text-align: left;
+}
+
+.aba:hover,
+.voto-pessoa:hover {
+  border-color: var(--color-accent);
+  background: var(--color-bg);
+}
+
+.aba:active,
+.voto-pessoa:active {
+  border-color: var(--color-accent-active);
+  background: var(--color-border);
+}
+
+.aba:focus-visible,
+.voto-pessoa:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.aba:disabled,
+.voto-pessoa:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.aba[aria-selected="true"],
+.voto-pessoa[aria-pressed="true"],
+.aba[aria-selected="true"]:hover,
+.voto-pessoa[aria-pressed="true"]:hover,
+.aba[aria-selected="true"]:active,
+.voto-pessoa[aria-pressed="true"]:active {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border-color: var(--color-primary);
+}
+
+#painel-voto[hidden],
+#paineis-presenca-indicadores[hidden],
+.votos-layout[hidden] {
+  display: none;
+}
+
+.votos-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.votos-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-4);
+}
+
+.votos-grupo h3 {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: var(--leading-lg);
+}
+
+.votos-pessoas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.voto-atual,
+.voto-atual:hover,
+.voto-atual:active,
+.voto-atual:disabled {
+  border-width: 2px;
+  border-color: var(--color-green);
+  font-weight: 700;
+}
+
+.votos-graficos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.grafico-rolagem {
+  overflow-x: auto;
+}
+
+.grafico.grafico-dias svg {
+  width: auto;
+  max-width: none;
+  height: auto;
+}
+
+@media (max-width: 720px) {
+  .votos-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   a,
   .card,
@@ -1425,7 +1723,9 @@ main {
   .fechar,
   .mes-btn,
   .info-btn,
-  .presenca-dia {
+  .presenca-dia,
+  .aba,
+  .voto-pessoa {
     transition:
       color var(--duration) ease-out,
       background-color var(--duration) ease-out,

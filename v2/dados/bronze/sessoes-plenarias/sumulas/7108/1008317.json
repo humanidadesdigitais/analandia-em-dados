@@ -1,0 +1,66 @@
+{
+  "realizada_em": "2026-04-14",
+  "presidente": "Paulo Sérgio Martins",
+  "primeiro_secretario": "Luiz Fernando Ometo",
+  "segundo_secretario": "Robson Viana",
+  "documento": "Projeto de Lei Complementar do Executivo -",
+  "numero_ata": null,
+  "tipo_votacao": "Discussão Simples - Maioria Absoluta",
+  "resultado": "Reprovado",
+  "votos": [
+    {
+      "nome": "Jone Viana dos Santos",
+      "sigla": "PP",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Abstenção"
+    },
+    {
+      "nome": "Luiz Fernando Ometo",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Magda Garbuio",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Paulo Sérgio Martins",
+      "sigla": "MDB",
+      "papel": "Presidente",
+      "voto": null
+    },
+    {
+      "nome": "Robson Viana",
+      "sigla": "REPUBLICANOS",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Samuel Bispo da Silva",
+      "sigla": "SD",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Abstenção"
+    }
+  ]
+}

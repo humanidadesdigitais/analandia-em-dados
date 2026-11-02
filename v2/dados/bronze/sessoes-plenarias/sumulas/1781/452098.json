@@ -1,0 +1,60 @@
+{
+  "realizada_em": "2024-03-12",
+  "presidente": "Ciro João Bertoli",
+  "primeiro_secretario": null,
+  "segundo_secretario": null,
+  "documento": "Projeto de Lei Complementar do Executivo -",
+  "numero_ata": null,
+  "tipo_votacao": "Discussão Simples - Maioria Absoluta",
+  "resultado": "Reprovado",
+  "votos": [
+    {
+      "nome": "Ciro João Bertoli",
+      "sigla": "PSB",
+      "papel": "Presidente",
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Dirceu de Sousa",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Edivaldo Mistro",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Elaine Cristina Fernandes",
+      "sigla": "REPUBLICANOS",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Leandro Santarpio",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Valdemir Mascia",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Contrário"
+    }
+  ]
+}

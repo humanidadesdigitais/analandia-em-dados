@@ -1,0 +1,66 @@
+{
+  "realizada_em": "2024-05-28",
+  "presidente": "Rogerio Conceição dos Santos",
+  "primeiro_secretario": null,
+  "segundo_secretario": null,
+  "documento": "Projeto de Lei Complementar do Executivo -",
+  "numero_ata": null,
+  "tipo_votacao": "Discussão Simples - Maioria Absoluta",
+  "resultado": "Reprovado",
+  "votos": [
+    {
+      "nome": "Ciro João Bertoli",
+      "sigla": "PSB",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Dirceu de Sousa",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Abstenção"
+    },
+    {
+      "nome": "Edivaldo Mistro",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "João Carlos Barbosa Sodelli",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Leandro Santarpio",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Contrário"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Rogerio Conceição dos Santos",
+      "sigla": "REPUBLICANOS",
+      "papel": "Presidente",
+      "voto": null
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Favorável"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "realizada_em": "2024-04-23",
+  "presidente": "Leandro Santarpio",
+  "primeiro_secretario": "José Luiz Vivaldini",
+  "segundo_secretario": "Valdemir Mascia",
+  "documento": "Projeto de Lei Ordinária - Nº4/2024",
+  "numero_ata": null,
+  "tipo_votacao": "Discussão Simples - Maioria Simples",
+  "resultado": "Aprovado",
+  "votos": [
+    {
+      "nome": "Ciro João Bertoli",
+      "sigla": "PSB",
+      "papel": null,
+      "voto": "Abstenção"
+    },
+    {
+      "nome": "Dirceu de Sousa",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Edivaldo Mistro",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Elaine Cristina Fernandes",
+      "sigla": "REPUBLICANOS",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "papel": null,
+      "voto": "Abstenção"
+    },
+    {
+      "nome": "Leandro Santarpio",
+      "sigla": "MDB",
+      "papel": "Presidente",
+      "voto": null
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Valdemir Mascia",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Abstenção"
+    }
+  ]
+}

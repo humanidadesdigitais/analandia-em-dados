@@ -1,0 +1,60 @@
+{
+  "realizada_em": "2026-08-11",
+  "presidente": "Paulo Sérgio Martins",
+  "primeiro_secretario": "Luiz Fernando Ometo",
+  "segundo_secretario": "Robson Viana",
+  "documento": "Ata Ordinária - Nº10/2026",
+  "numero_ata": "10/2026",
+  "tipo_votacao": "Discussão Simples - Maioria Simples",
+  "resultado": "Aprovado",
+  "votos": [
+    {
+      "nome": "Jone Viana dos Santos",
+      "sigla": "PP",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Luiz Fernando Ometo",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Magda Garbuio",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Paulo Sérgio Martins",
+      "sigla": "MDB",
+      "papel": "Presidente",
+      "voto": null
+    },
+    {
+      "nome": "Robson Viana",
+      "sigla": "REPUBLICANOS",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Samuel Bispo da Silva",
+      "sigla": "SD",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Favorável"
+    }
+  ]
+}

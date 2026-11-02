@@ -1,0 +1,66 @@
+{
+  "realizada_em": "2024-02-27",
+  "presidente": "Ciro João Bertoli",
+  "primeiro_secretario": null,
+  "segundo_secretario": null,
+  "documento": "Projeto de Lei do Executivo - Nº12/2024",
+  "numero_ata": null,
+  "tipo_votacao": "Discussão Simples - Maioria Simples",
+  "resultado": "Aprovado",
+  "votos": [
+    {
+      "nome": "Ciro João Bertoli",
+      "sigla": "PSB",
+      "papel": "Presidente",
+      "voto": null
+    },
+    {
+      "nome": "Dirceu de Sousa",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Edivaldo Mistro",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Elaine Cristina Fernandes",
+      "sigla": "REPUBLICANOS",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "José Luiz Vivaldini",
+      "sigla": "PP",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Leandro Santarpio",
+      "sigla": "MDB",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Luiz Fernando Carvalho",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Sidinei Carlos Valeriano",
+      "sigla": "PDT",
+      "papel": null,
+      "voto": "Favorável"
+    },
+    {
+      "nome": "Valdemir Mascia",
+      "sigla": "UNIAO",
+      "papel": null,
+      "voto": "Favorável"
+    }
+  ]
+}
