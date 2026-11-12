@@ -9,9 +9,9 @@ O código está sob a licença MIT. Os dados públicos continuam das fontes de o
 
 ## Onde estamos
 
-Em 01/11/2026, calendário das sessões, audiências públicas e vereadores estão nas três etapas. A coleta das sessões plenárias está na bronze, as chamadas estão na silver e a capa abre o calendário de presença e o gráfico de presença ou não. Diário oficial e tramitação de processos ainda não começaram.
+Em 09/11/2026, calendário das sessões, audiências públicas e vereadores estão nas três etapas. A coleta das sessões plenárias está na bronze. As chamadas e as súmulas estão na silver. A gold das sessões ainda não existe. Diário oficial e tramitação de processos ainda não começaram.
 
-A capa abre o calendário do mês e a análise de sessões contra recesso, a lista e os indicadores das audiências, e o cadastro dos candidatos a vereador em 2024. São 69 pessoas, em blocos de eleitos, suplentes e não eleitos, com busca por nome, filtro por partido e indicadores. O arquivo lista os PDFs já coletados do calendário e das audiências.
+A capa mostra os nove eleitos de 2024, cada um com a própria página de votos, e um card que abre o cadastro dos 69 candidatos. São blocos de eleitos, suplentes e não eleitos, com busca por nome, filtro por partido e indicadores. No mesmo tópico das sessões, o calendário de presença já aparece na página: o dia abre os votos e a lista de presença, e há indicadores de voto e de presença. O arquivo lista o calendário, as chamadas, as súmulas, as audiências e os vereadores.
 
 O JSON inteiro de cada detalhe de candidato fica na bronze. A silver guarda o sexo publicado. CPF e título de eleitor não entram no site.
 
@@ -28,8 +28,8 @@ Cada tema passa por três etapas, nesta ordem. A coleta grava o original em `bro
 | Diário oficial | 2. Operações em dados | Organizar cada edição na silver e calcular na gold só o que o diário publica | A fazer |
 | Diário oficial | 3. Visualização | Listar as edições no site e mostrar os indicadores | A fazer |
 | Sessões plenárias | 1. Script de coleta | `v2/scripts/sessoes-plenarias/coletar.py` baixa a lista, os HTML e os PDFs de https://camaraanalandia.sp.gov.br/sessao/ para a bronze, com `metadados.json` | Feito |
-| Sessões plenárias | 2. Operações em dados | `organizar.py` grava as chamadas em `chamadas.json` na silver. Súmulas e indicadores na gold ainda faltam | A fazer |
-| Sessões plenárias | 3. Visualização | A capa abre o calendário de presença e o gráfico de presença ou não nas chamadas. Súmulas ainda faltam | A fazer |
+| Sessões plenárias | 2. Operações em dados | `organizar.py` grava as chamadas em `chamadas.json` e as súmulas em `sumulas.json` na silver. Indicadores na gold ainda faltam | A fazer |
+| Sessões plenárias | 3. Visualização | A capa mostra o calendário de presença, a lista de presença, os votos do dia e os indicadores de voto e de presença. O arquivo lista chamadas e súmulas. Cada eleito tem a página dos próprios votos. Indicadores na gold ainda faltam | A fazer |
 | Audiências públicas | 1. Script de coleta | `v2/scripts/audiencias-publicas/coletar.py` baixa os PDFs de cada ano do seletor para a bronze, com `metadados.json` | Feito |
 | Audiências públicas | 2. Operações em dados | `organizar.py` grava cada documento em `audiencias.json`. `agregar.py` conta convites, atas e peças na gold | Feito |
 | Audiências públicas | 3. Visualização | A capa abre a lista e os indicadores de convites, atas e peças. O arquivo lista os PDFs | Feito |

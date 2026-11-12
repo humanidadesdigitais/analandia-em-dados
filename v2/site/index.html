@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Analândia em Dados</title>
-    <link rel="stylesheet" href="css/tokens.css?v=22">
+    <link rel="stylesheet" href="css/tokens.css?v=25">
   </head>
   <body>
     <a class="skip" href="#conteudo">Ir para o conteúdo</a>
@@ -21,7 +21,11 @@
         <p class="lede">Acompanhe de perto a dinâmica de trabalho dos(as) vereadores(as) eleitos da Câmara Municipal de Analândia</p>
         <section class="ano-sessoes" aria-labelledby="titulo-legisla">
           <h2 id="titulo-legisla">Conheça quem Legisla</h2>
-          <div class="eleitos-capa" id="eleitos-capa"></div>
+          <div class="eleitos-capa" id="eleitos-capa">
+            <button class="eleito-card eleito-card-candidatos" type="button" id="abrir-vereadores">
+              <h3>Saiba quem se candidatou em 2024</h3>
+            </button>
+          </div>
         </section>
         <section class="ano-sessoes" aria-labelledby="sessoes-2026">
           <h2 id="sessoes-2026">Saiba o que está sendo discutido</h2>
@@ -168,16 +172,8 @@
         <button class="fechar" type="button" id="fechar-presenca-indicadores">Fechar</button>
       </div>
       <div class="vereadores-filtros" id="filtros-presenca">
-        <label class="vereadores-filtro" for="filtro-presenca-ano">Ano
-          <select id="filtro-presenca-ano">
-            <option value="">Todos</option>
-          </select>
-        </label>
-        <label class="vereadores-filtro" for="filtro-presenca-mes">Mês
-          <select id="filtro-presenca-mes">
-            <option value="">Todos</option>
-          </select>
-        </label>
+        <div class="vereadores-filtro" id="filtro-presenca-ano"></div>
+        <div class="vereadores-filtro" id="filtro-presenca-mes"></div>
       </div>
       <div id="painel-voto"></div>
       <div id="paineis-presenca-indicadores" hidden></div>
@@ -199,11 +195,11 @@
       </div>
       <div id="paineis-presenca-chamada"></div>
     </dialog>
-    <script src="js/eleitos-capa.js?v=2"></script>
+    <script src="js/eleitos-capa.js?v=3"></script>
     <script src="js/vereadores.js?v=11"></script>
     <script src="js/calendario.js"></script>
     <script src="js/analise.js"></script>
     <script src="js/audiencias.js?v=3"></script>
-    <script src="js/presenca.js?v=10"></script>
+    <script src="js/presenca.js?v=12"></script>
   </body>
 </html>

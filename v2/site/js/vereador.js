@@ -31,7 +31,7 @@
   function dataCurta(valor) {
     const forma = String(valor || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
     if (!forma) return "—";
-    return `${forma[3]}/${forma[2]}`;
+    return `${forma[3]}-${forma[2]}-${forma[1]}`;
   }
 
   function svg(nome, atributos) {
@@ -138,7 +138,7 @@
     });
     const dias = [...porDia.keys()].sort();
     const margemEsq = 48;
-    const margemBaixo = 72;
+    const margemBaixo = 120;
     const margemTopo = 16;
     const larguraBarra = 32;
     const alturaTrilho = 180;
@@ -205,7 +205,7 @@
         y: 0,
         "font-size": "11",
         "text-anchor": "start",
-        transform: `translate(${x} ${base}) rotate(45)`,
+        transform: `translate(${x} ${base}) rotate(90)`,
       });
       rotulo.textContent = dataCurta(dia);
       desenho.append(rotulo);
@@ -215,9 +215,8 @@
     return bloco;
   }
 
-  const COLUNAS = [
+  const COLUNAS_SESSAO = [
     { chave: "dia", rotulo: "Data" },
-    { chave: "titulo", rotulo: "Sessão" },
     { chave: "documento", rotulo: "Documento" },
     { chave: "voto", rotulo: "Voto" },
   ];
@@ -233,54 +232,196 @@
     return direcao === "desc" ? -base : base;
   }
 
-  function tabelaVotos(itens, ordem, aoOrdenar) {
+  function tabelaSessao(itens) {
+    const ordem = { coluna: null, direcao: "desc" };
     const tabela = document.createElement("table");
     tabela.className = "presenca-lista";
     const cabecalho = document.createElement("thead");
     const linhaCabecalho = document.createElement("tr");
-    COLUNAS.forEach((coluna) => {
-      const th = document.createElement("th");
-      th.scope = "col";
-      th.setAttribute("aria-sort", ordem.coluna === coluna.chave ? (ordem.direcao === "asc" ? "ascending" : "descending") : "none");
-      const botao = document.createElement("button");
-      botao.type = "button";
-      botao.className = "ordenar-coluna";
-      botao.textContent = coluna.rotulo;
-      botao.addEventListener("click", () => aoOrdenar(coluna.chave));
-      th.append(botao);
-      linhaCabecalho.append(th);
-    });
-    cabecalho.append(linhaCabecalho);
     const corpo = document.createElement("tbody");
-    itens.forEach((item) => {
-      const tr = document.createElement("tr");
-      const voto = celula(item.voto, "td");
-      voto.className = "presenca-valor";
-      voto.dataset.voto = item.voto;
-      tr.append(
-        celula(item.dia ? dataPorExtenso(item.dia) : "—", "td"),
-        celula(item.titulo, "td"),
-        celula(item.documento, "td"),
-        voto,
-      );
-      corpo.append(tr);
-    });
+    function preencher() {
+      linhaCabecalho.replaceChildren();
+      COLUNAS_SESSAO.forEach((coluna) => {
+        const th = document.createElement("th");
+        th.scope = "col";
+        th.setAttribute("aria-sort", ordem.coluna === coluna.chave ? (ordem.direcao === "asc" ? "ascending" : "descending") : "none");
+        const botao = document.createElement("button");
+        botao.type = "button";
+        botao.className = "ordenar-coluna";
+        botao.textContent = coluna.rotulo;
+        botao.addEventListener("click", () => {
+          if (ordem.coluna === coluna.chave) ordem.direcao = ordem.direcao === "asc" ? "desc" : "asc";
+          else {
+            ordem.coluna = coluna.chave;
+            ordem.direcao = coluna.chave === "dia" ? "desc" : "asc";
+          }
+          preencher();
+        });
+        th.append(botao);
+        linhaCabecalho.append(th);
+      });
+      corpo.replaceChildren();
+      [...itens].sort((a, b) => compararItens(a, b, ordem)).forEach((item) => {
+        const tr = document.createElement("tr");
+        const voto = celula(item.voto, "td");
+        voto.className = "presenca-valor";
+        voto.dataset.voto = item.voto;
+        tr.append(
+          celula(item.dia ? dataPorExtenso(item.dia) : "—", "td"),
+          celula(item.documento, "td"),
+          voto,
+        );
+        corpo.append(tr);
+      });
+    }
+    preencher();
+    cabecalho.append(linhaCabecalho);
     tabela.append(cabecalho, corpo);
     return tabela;
   }
 
-  function selecao(rotulo, valores, texto) {
-    const label = document.createElement("label");
-    label.className = "vereadores-filtro";
-    label.append(document.createTextNode(rotulo));
-    const campo = document.createElement("select");
-    campo.append(new Option("Todos", ""));
-    valores.forEach((valor) => campo.append(new Option(texto(valor), valor)));
-    label.append(campo);
-    return { label, campo };
+  function alternarBloco(botao, corpo, titulo, abertoInicial, aoMudar) {
+    let aberto = abertoInicial;
+    function aplicar() {
+      corpo.hidden = !aberto;
+      botao.replaceChildren();
+      const seta = document.createElement("span");
+      seta.className = "seta";
+      seta.setAttribute("aria-hidden", "true");
+      botao.append(seta);
+      botao.setAttribute("aria-expanded", aberto ? "true" : "false");
+      botao.setAttribute("aria-label", `${aberto ? "Fechar" : "Abrir"} ${titulo}`);
+      if (aoMudar) aoMudar(aberto);
+    }
+    botao.addEventListener("click", () => {
+      aberto = !aberto;
+      aplicar();
+    });
+    aplicar();
   }
 
-  function selecaoSessao(itens) {
+  function secaoVotos(titulo, abertoInicial, aoMudar) {
+    const secao = document.createElement("section");
+    secao.className = "secao-votos";
+    const topo = document.createElement("div");
+    topo.className = "secao-votos-topo";
+    const heading = document.createElement("h2");
+    heading.textContent = titulo;
+    const botao = document.createElement("button");
+    botao.type = "button";
+    botao.className = "vereadores-alternar seta-bloco";
+    const corpo = document.createElement("div");
+    corpo.className = "secao-votos-corpo";
+    alternarBloco(botao, corpo, titulo, abertoInicial, aoMudar);
+    topo.append(heading, botao);
+    secao.append(topo, corpo);
+    return { secao, corpo };
+  }
+
+  function blocoSessao(sessao) {
+    const secao = document.createElement("section");
+    secao.className = "sessao-voto";
+    const topo = document.createElement("div");
+    topo.className = "sessao-voto-topo";
+    const heading = document.createElement("h3");
+    heading.textContent = sessao.titulo;
+    const quando = document.createElement("p");
+    quando.textContent = dataCurta(sessao.dia);
+    const botao = document.createElement("button");
+    botao.type = "button";
+    botao.className = "vereadores-alternar seta-bloco";
+    const corpo = document.createElement("div");
+    corpo.className = "sessao-voto-corpo";
+    corpo.append(tabelaSessao(sessao.itens));
+    alternarBloco(botao, corpo, sessao.titulo, false);
+    topo.append(heading, quando, botao);
+    secao.append(topo, corpo);
+    return secao;
+  }
+
+  function sessoesDe(itens) {
+    const mapa = new Map();
+    itens.forEach((item) => {
+      const chave = `${item.dia}|${item.titulo}`;
+      const grupo = mapa.get(chave) || { dia: item.dia, titulo: item.titulo, itens: [] };
+      grupo.itens.push(item);
+      mapa.set(chave, grupo);
+    });
+    return [...mapa.values()].sort((a, b) => b.dia.localeCompare(a.dia) || a.titulo.localeCompare(b.titulo, "pt-BR"));
+  }
+
+  function menuMultiplo(rotulo) {
+    const bloco = document.createElement("div");
+    bloco.className = "vereadores-filtro menu-multiplo";
+    const titulo = document.createElement("span");
+    titulo.textContent = rotulo;
+    const botao = document.createElement("button");
+    botao.type = "button";
+    botao.className = "menu-multiplo-botao";
+    botao.setAttribute("aria-haspopup", "true");
+    botao.setAttribute("aria-expanded", "false");
+    const resumo = document.createElement("span");
+    resumo.className = "menu-multiplo-resumo";
+    resumo.textContent = "Todos";
+    const seta = document.createElement("span");
+    seta.className = "seta";
+    seta.setAttribute("aria-hidden", "true");
+    botao.append(resumo, seta);
+    const lista = document.createElement("div");
+    lista.className = "menu-multiplo-lista";
+    lista.hidden = true;
+    botao.addEventListener("click", (evento) => {
+      evento.stopPropagation();
+      const abrir = lista.hidden;
+      document.querySelectorAll(".menu-multiplo-lista").forEach((outra) => {
+        outra.hidden = true;
+        outra.previousElementSibling.setAttribute("aria-expanded", "false");
+      });
+      lista.hidden = !abrir;
+      botao.setAttribute("aria-expanded", abrir ? "true" : "false");
+    });
+    lista.addEventListener("click", (evento) => evento.stopPropagation());
+    lista.addEventListener("change", () => {
+      const marcados = [...lista.querySelectorAll("input:checked")].map((campo) => campo.dataset.rotulo);
+      resumo.textContent = marcados.length ? marcados.join(", ") : "Todos";
+    });
+    bloco.append(titulo, botao, lista);
+    return {
+      bloco,
+      lista,
+      valores() {
+        return [...lista.querySelectorAll("input:checked")].map((campo) => campo.value);
+      },
+      limpar() {
+        lista.querySelectorAll("input").forEach((campo) => {
+          campo.checked = false;
+        });
+        resumo.textContent = "Todos";
+        lista.hidden = true;
+        botao.setAttribute("aria-expanded", "false");
+      },
+    };
+  }
+
+  function opcaoMenu(rotulo, valor) {
+    const label = document.createElement("label");
+    label.className = "filtro-caixa";
+    const campo = document.createElement("input");
+    campo.type = "checkbox";
+    campo.value = valor;
+    campo.dataset.rotulo = rotulo;
+    label.append(campo, document.createTextNode(rotulo));
+    return label;
+  }
+
+  function menuDatas(datas) {
+    const filtro = menuMultiplo("Data");
+    datas.forEach((dia) => filtro.lista.append(opcaoMenu(dia ? dataCurta(dia) : "—", dia)));
+    return filtro;
+  }
+
+  function menuSessao(itens) {
+    const filtro = menuMultiplo("Sessão");
     const diaDoTitulo = new Map();
     itens.forEach((item) => {
       const atual = diaDoTitulo.get(item.titulo);
@@ -293,21 +434,22 @@
       lista.push({ titulo, dia });
       porAno.set(ano, lista);
     });
-    const label = document.createElement("label");
-    label.className = "vereadores-filtro";
-    label.append(document.createTextNode("Sessão"));
-    const campo = document.createElement("select");
-    campo.append(new Option("Todos", ""));
     [...porAno.keys()].sort((a, b) => b.localeCompare(a)).forEach((ano) => {
-      const grupo = document.createElement("optgroup");
-      grupo.label = ano;
+      const tituloAno = document.createElement("p");
+      tituloAno.className = "filtro-ano";
+      tituloAno.textContent = ano;
+      filtro.lista.append(tituloAno);
       porAno.get(ano)
         .sort((a, b) => b.dia.localeCompare(a.dia) || a.titulo.localeCompare(b.titulo, "pt-BR"))
-        .forEach((item) => grupo.append(new Option(item.titulo, item.titulo)));
-      campo.append(grupo);
+        .forEach((item) => filtro.lista.append(opcaoMenu(item.titulo, item.titulo)));
     });
-    label.append(campo);
-    return { label, campo };
+    return filtro;
+  }
+
+  function menuVoto() {
+    const filtro = menuMultiplo("Voto");
+    ORDEM_VOTO.forEach((voto) => filtro.lista.append(opcaoMenu(voto, voto)));
+    return filtro;
   }
 
   function mostrarPainel(itens) {
@@ -319,31 +461,26 @@
     }
     const ordenados = [...itens].sort((a, b) => compararItens(a, b, {}));
     const datas = [...new Set(ordenados.map((item) => item.dia))].sort((a, b) => b.localeCompare(a));
-    const filtroData = selecao("Data", datas, (dia) => (dia ? dataPorExtenso(dia) : "—"));
-    const filtroSessao = selecaoSessao(ordenados);
-    const filtroVoto = selecao("Voto", ORDEM_VOTO, (voto) => voto);
+    const filtroData = menuDatas(datas);
+    const filtroSessao = menuSessao(ordenados);
+    const filtroVoto = menuVoto();
     const limpar = document.createElement("button");
     limpar.type = "button";
     limpar.className = "vereadores-alternar";
-    limpar.textContent = "Limpar";
+    limpar.textContent = "Resetar filtros";
     const filtros = document.createElement("div");
-    filtros.className = "vereadores-filtros";
-    filtros.append(filtroData.label, filtroSessao.label, filtroVoto.label, limpar);
+    filtros.className = "filtros-vereador";
+    filtros.append(filtroData.bloco, filtroSessao.bloco, filtroVoto.bloco, limpar);
     const resultado = document.createElement("div");
-    const ordem = { coluna: null, direcao: "desc" };
-    function aoOrdenar(coluna) {
-      if (ordem.coluna === coluna) ordem.direcao = ordem.direcao === "asc" ? "desc" : "asc";
-      else {
-        ordem.coluna = coluna;
-        ordem.direcao = coluna === "dia" ? "desc" : "asc";
-      }
-      desenhar();
-    }
+    const estado = { agregados: true, informacoes: false };
     function desenhar() {
+      const datasMarcadas = filtroData.valores();
+      const sessoesMarcadas = filtroSessao.valores();
+      const votosMarcados = filtroVoto.valores();
       const visiveis = ordenados.filter((item) => {
-        if (filtroData.campo.value && item.dia !== filtroData.campo.value) return false;
-        if (filtroSessao.campo.value && item.titulo !== filtroSessao.campo.value) return false;
-        if (filtroVoto.campo.value && item.voto !== filtroVoto.campo.value) return false;
+        if (datasMarcadas.length && !datasMarcadas.includes(item.dia)) return false;
+        if (sessoesMarcadas.length && !sessoesMarcadas.includes(item.titulo)) return false;
+        if (votosMarcados.length && !votosMarcados.includes(item.voto)) return false;
         return true;
       });
       resultado.replaceChildren();
@@ -353,23 +490,50 @@
         resultado.append(nota);
         return;
       }
-      visiveis.sort((a, b) => compararItens(a, b, ordem));
+      const agregados = secaoVotos("Dados agregados", estado.agregados, (aberto) => {
+        estado.agregados = aberto;
+      });
       const faixa = document.createElement("div");
       faixa.className = "votos-graficos votos-graficos-lado";
       faixa.append(pizzaVotos(visiveis), barrasDias(visiveis));
-      resultado.append(faixa, tabelaVotos(visiveis, ordem, aoOrdenar));
+      agregados.corpo.append(faixa);
+      const informacoes = secaoVotos("Informações de voto", estado.informacoes, (aberto) => {
+        estado.informacoes = aberto;
+      });
+      sessoesDe(visiveis).forEach((sessao) => informacoes.corpo.append(blocoSessao(sessao)));
+      resultado.append(agregados.secao, informacoes.secao);
     }
-    [filtroData, filtroSessao, filtroVoto].forEach((filtro) => {
-      filtro.campo.addEventListener("change", desenhar);
+    filtros.addEventListener("change", desenhar);
+    document.addEventListener("click", () => {
+      filtros.querySelectorAll(".menu-multiplo-lista").forEach((lista) => {
+        lista.hidden = true;
+        lista.previousElementSibling.setAttribute("aria-expanded", "false");
+      });
+    });
+    document.addEventListener("keydown", (evento) => {
+      if (evento.key !== "Escape") return;
+      filtros.querySelectorAll(".menu-multiplo-lista").forEach((lista) => {
+        lista.hidden = true;
+        lista.previousElementSibling.setAttribute("aria-expanded", "false");
+      });
     });
     limpar.addEventListener("click", () => {
-      filtroData.campo.value = "";
-      filtroSessao.campo.value = "";
-      filtroVoto.campo.value = "";
+      filtroData.limpar();
+      filtroSessao.limpar();
+      filtroVoto.limpar();
       desenhar();
     });
     desenhar();
     anos.append(filtros, resultado);
+  }
+
+  function linhaFicha(rotulo, valor, classe) {
+    const linha = document.createElement("p");
+    if (classe) linha.className = classe;
+    const forte = document.createElement("strong");
+    forte.textContent = rotulo;
+    linha.append(forte, document.createTextNode(` ${valor}`));
+    return linha;
   }
 
   function mostrarFicha(pessoa) {
@@ -380,12 +544,11 @@
     const texto = document.createElement("div");
     const nome = document.createElement("h1");
     nome.textContent = pessoa.nome_completo;
-    const urna = document.createElement("p");
-    urna.className = "nome-candidato";
-    urna.textContent = pessoa.nome_urna;
-    const partido = document.createElement("p");
-    partido.textContent = pessoa.partido;
-    texto.append(nome, urna, partido);
+    texto.append(
+      nome,
+      linhaFicha("Apelido:", pessoa.nome_urna, "nome-candidato"),
+      linhaFicha("Partido:", pessoa.partido),
+    );
     const bloco = document.createElement("div");
     bloco.className = "vereador-ficha";
     bloco.append(quadro, texto);
