@@ -1839,6 +1839,202 @@ th[aria-sort="descending"] .ordenar-coluna::after {
   display: none;
 }
 
+.filtros-vereador {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.filtros-vereador .vereadores-filtro {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.filtros-vereador .vereadores-alternar {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.menu-multiplo-botao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  width: 100%;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--space-1);
+  font: inherit;
+  font-size: var(--text-base);
+  font-weight: 400;
+  text-align: left;
+  cursor: pointer;
+}
+
+.menu-multiplo-resumo {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menu-multiplo-botao .seta {
+  flex: 0 0 auto;
+}
+
+.menu-multiplo-botao:hover {
+  border-color: var(--color-accent);
+}
+
+.menu-multiplo-botao:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.menu-multiplo-botao:active,
+.menu-multiplo-botao[aria-expanded="true"] {
+  border-color: var(--color-accent-active);
+}
+
+.menu-multiplo-botao:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.menu-multiplo-lista {
+  position: absolute;
+  z-index: var(--z-dropdown);
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 240px;
+  margin: var(--space-1) 0 0;
+  padding: var(--space-1);
+  overflow: auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--space-1);
+  box-shadow: var(--shadow-hover);
+}
+
+.menu-multiplo-lista[hidden] {
+  display: none;
+}
+
+.filtro-ano {
+  margin: var(--space-2) var(--space-2) var(--space-1);
+  color: var(--color-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  line-height: var(--leading-sm);
+}
+
+.filtro-caixa {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding: 0 var(--space-2);
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  line-height: var(--leading-sm);
+  cursor: pointer;
+}
+
+.filtro-caixa input {
+  width: 20px;
+  height: 20px;
+  min-height: 20px;
+  padding: 0;
+  flex: 0 0 auto;
+}
+
+.filtro-caixa:hover {
+  background: var(--color-bg);
+}
+
+.filtro-caixa:active {
+  background: var(--color-border);
+}
+
+.filtro-caixa input:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.filtro-caixa input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.seta-bloco {
+  width: 44px;
+  min-width: 44px;
+  padding: 0;
+}
+
+.seta {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  margin-top: -4px;
+}
+
+.seta-bloco[aria-expanded="true"] .seta {
+  transform: rotate(-135deg);
+  margin-top: 4px;
+}
+
+.secao-votos {
+  margin-top: var(--space-4);
+}
+
+.secao-votos-topo,
+.sessao-voto-topo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.secao-votos-topo h2,
+.sessao-voto-topo h3,
+.sessao-voto-topo p {
+  margin: 0;
+}
+
+.secao-votos-topo h2 {
+  color: var(--color-primary);
+  font-size: var(--text-xl);
+  line-height: var(--leading-xl);
+}
+
+.sessao-voto-topo h3 {
+  flex: 1;
+  color: var(--color-primary);
+  font-size: var(--text-lg);
+  line-height: var(--leading-lg);
+}
+
+.sessao-voto-topo p {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
+}
+
+.secao-votos-corpo[hidden],
+.sessao-voto-corpo[hidden] {
+  display: none;
+}
+
 .votos-graficos {
   display: flex;
   flex-direction: column;
@@ -1871,6 +2067,14 @@ th[aria-sort="descending"] .ordenar-coluna::after {
 @media (max-width: 720px) {
   .votos-graficos-lado {
     grid-template-columns: 1fr;
+  }
+
+  .filtros-vereador {
+    flex-wrap: wrap;
+  }
+
+  .filtros-vereador .vereadores-filtro {
+    flex: 1 1 100%;
   }
 }
 

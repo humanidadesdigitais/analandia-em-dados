@@ -198,17 +198,24 @@ function montarSumula(sumula) {
   return bloco;
 }
 
-function abrirDia(valor) {
+async function abrirDia(valor) {
   if (dialogoChamada.open) dialogoChamada.close();
   diaAberto = valor;
   tituloDia.textContent = dataPorExtenso(valor);
-  const doDia = sumulasPorDia.get(valor) || [];
-  if (doDia.length === 0) {
+  try {
+    await carregarSumulas();
+    const doDia = sumulasPorDia.get(valor) || [];
+    if (doDia.length === 0) {
+      const nota = document.createElement("p");
+      nota.textContent = "Não há súmula nesse dia.";
+      paineisDia.replaceChildren(nota);
+    } else {
+      paineisDia.replaceChildren(...doDia.map(montarSumula));
+    }
+  } catch (falha) {
     const nota = document.createElement("p");
-    nota.textContent = "Não há súmula nesse dia.";
+    nota.textContent = "Não foi possível ler as súmulas.";
     paineisDia.replaceChildren(nota);
-  } else {
-    paineisDia.replaceChildren(...doDia.map(montarSumula));
   }
   if (!dialogoDia.open) dialogoDia.showModal();
 }
@@ -283,22 +290,13 @@ function mover(passo) {
   desenhar(data.getFullYear(), data.getMonth() + 1);
 }
 
-function preparar(lista, lidas) {
+function prepararChamadas(lista) {
   chamadas = lista;
-  sumulas = lidas;
   porDia = new Map();
-  sumulasPorDia = new Map();
   lista.forEach((chamada) => {
     const grupo = porDia.get(chamada.realizada_em) || [];
     grupo.push(chamada);
     porDia.set(chamada.realizada_em, grupo);
-  });
-  lidas.forEach((sumula) => {
-    const dia = diaDaSessao(sumula);
-    if (!dia) return;
-    const grupo = sumulasPorDia.get(dia) || [];
-    grupo.push(sumula);
-    sumulasPorDia.set(dia, grupo);
   });
   const datas = lista.map((chamada) => chamada.realizada_em).sort();
   const [anoInicio, mesInicio] = datas[0].split("-").map(Number);
@@ -308,7 +306,20 @@ function preparar(lista, lidas) {
   desenhar(anoFim, mesFim);
 }
 
+function prepararSumulas(lidas) {
+  sumulas = lidas;
+  sumulasPorDia = new Map();
+  lidas.forEach((sumula) => {
+    const dia = diaDaSessao(sumula);
+    if (!dia) return;
+    const grupo = sumulasPorDia.get(dia) || [];
+    grupo.push(sumula);
+    sumulasPorDia.set(dia, grupo);
+  });
+}
+
 let leitura = null;
+let leituraSumulas = null;
 
 async function carregar() {
   if (chamadas) return;
@@ -321,25 +332,40 @@ async function carregar() {
   return leitura;
 }
 
+async function carregarSumulas() {
+  if (sumulas) return;
+  if (!leituraSumulas) {
+    leituraSumulas = lerSumulas().catch((falha) => {
+      leituraSumulas = null;
+      throw falha;
+    });
+  }
+  return leituraSumulas;
+}
+
 async function lerChamadas() {
   if (chamadas) return;
-  const [resposta, respostaSumulas] = await Promise.all([
-    fetch("../dados/silver/sessoes-plenarias/chamadas.json"),
-    fetch("../dados/silver/sessoes-plenarias/sumulas.json"),
-  ]);
-  if (!resposta.ok || !respostaSumulas.ok) throw new Error("leitura");
+  const resposta = await fetch("../dados/silver/sessoes-plenarias/chamadas.json");
+  if (!resposta.ok) throw new Error("leitura");
   const lido = await resposta.json();
-  const lidas = await respostaSumulas.json();
   if (!Array.isArray(lido.chamadas) || lido.chamadas.length === 0) throw new Error("formato");
-  if (!Array.isArray(lidas.sumulas)) throw new Error("formato");
   lido.chamadas.forEach((chamada) => {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(chamada.realizada_em)) throw new Error("formato");
     if (!Array.isArray(chamada.presencas) || chamada.presencas.length === 0) throw new Error("formato");
   });
+  prepararChamadas(lido.chamadas);
+}
+
+async function lerSumulas() {
+  if (sumulas) return;
+  const resposta = await fetch("../dados/silver/sessoes-plenarias/sumulas.json");
+  if (!resposta.ok) throw new Error("leitura");
+  const lidas = await resposta.json();
+  if (!Array.isArray(lidas.sumulas)) throw new Error("formato");
   lidas.sumulas.forEach((sumula) => {
     if (!Array.isArray(sumula.votos)) throw new Error("formato");
   });
-  preparar(lido.chamadas, lidas.sumulas);
+  prepararSumulas(lidas.sumulas);
 }
 
 const SVG = "http://www.w3.org/2000/svg";
@@ -370,37 +396,90 @@ function percentual(parte, total) {
   }).format((parte / total) * 100);
 }
 
-function opcao(valor, rotulo) {
-  const item = document.createElement("option");
-  item.value = valor;
-  item.textContent = rotulo;
-  return item;
+function montarMenu(container, rotulo) {
+  container.classList.add("menu-multiplo");
+  const titulo = document.createElement("span");
+  titulo.textContent = rotulo;
+  const botao = document.createElement("button");
+  botao.type = "button";
+  botao.className = "menu-multiplo-botao";
+  botao.setAttribute("aria-haspopup", "true");
+  botao.setAttribute("aria-expanded", "false");
+  const resumo = document.createElement("span");
+  resumo.className = "menu-multiplo-resumo";
+  resumo.textContent = "Todos";
+  const seta = document.createElement("span");
+  seta.className = "seta";
+  seta.setAttribute("aria-hidden", "true");
+  botao.append(resumo, seta);
+  const lista = document.createElement("div");
+  lista.className = "menu-multiplo-lista";
+  lista.hidden = true;
+  botao.addEventListener("click", (evento) => {
+    evento.stopPropagation();
+    const abrir = lista.hidden;
+    filtrosIndicadores.querySelectorAll(".menu-multiplo-lista").forEach((outra) => {
+      outra.hidden = true;
+      outra.previousElementSibling.setAttribute("aria-expanded", "false");
+    });
+    lista.hidden = !abrir;
+    botao.setAttribute("aria-expanded", abrir ? "true" : "false");
+  });
+  lista.addEventListener("click", (evento) => evento.stopPropagation());
+  lista.addEventListener("change", () => {
+    const marcados = [...lista.querySelectorAll("input:checked")].map((campo) => campo.dataset.rotulo);
+    resumo.textContent = marcados.length ? marcados.join(", ") : "Todos";
+  });
+  container.replaceChildren(titulo, botao, lista);
+  return lista;
 }
+
+function preencherLista(lista, itens) {
+  lista.replaceChildren(...itens.map(({ valor, rotulo }) => {
+    const label = document.createElement("label");
+    label.className = "filtro-caixa";
+    const campo = document.createElement("input");
+    campo.type = "checkbox";
+    campo.value = valor;
+    campo.dataset.rotulo = rotulo;
+    label.append(campo, document.createTextNode(` ${rotulo}`));
+    return label;
+  }));
+  lista.previousElementSibling.querySelector(".menu-multiplo-resumo").textContent = "Todos";
+  lista.hidden = true;
+  lista.previousElementSibling.setAttribute("aria-expanded", "false");
+}
+
+function marcados(container) {
+  return [...container.querySelectorAll("input:checked")].map((campo) => campo.value);
+}
+
+const listaAno = montarMenu(filtroAno, "Ano");
+const listaMes = montarMenu(filtroMes, "Mês");
 
 function noPeriodo(valor) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(valor || "")) return false;
   const [ano, mes] = valor.split("-");
-  if (filtroAno.value && ano !== filtroAno.value) return false;
-  if (filtroMes.value && mes !== filtroMes.value) return false;
+  const anos = marcados(filtroAno);
+  const meses = marcados(filtroMes);
+  if (anos.length && !anos.includes(ano)) return false;
+  if (meses.length && !meses.includes(mes)) return false;
   return true;
 }
 
 function preencherFiltros() {
   const datas = [
     ...chamadas.map((chamada) => chamada.realizada_em),
-    ...sumulas.map(diaDaSessao),
+    ...(sumulas || []).map(diaDaSessao),
   ].filter((valor) => /^\d{4}-\d{2}-\d{2}$/.test(valor));
-  const anos = [...new Set(datas.map((valor) => valor.slice(0, 4)))].sort();
+  const anos = [...new Set(datas.map((valor) => valor.slice(0, 4)))].sort((a, b) => b.localeCompare(a));
   const meses = [...new Set(datas.map((valor) => Number(valor.slice(5, 7))))];
   meses.sort((a, b) => a - b);
-  filtroAno.replaceChildren(opcao("", "Todos"), ...anos.map((ano) => opcao(ano, ano)));
-  filtroMes.replaceChildren(
-    opcao("", "Todos"),
-    ...meses.map((mes) => {
-      const rotulo = MESES[mes - 1];
-      return opcao(String(mes).padStart(2, "0"), rotulo[0].toUpperCase() + rotulo.slice(1));
-    }),
-  );
+  preencherLista(listaAno, anos.map((ano) => ({ valor: ano, rotulo: ano })));
+  preencherLista(listaMes, meses.map((mes) => {
+    const nome = MESES[mes - 1];
+    return { valor: String(mes).padStart(2, "0"), rotulo: nome[0].toUpperCase() + nome.slice(1) };
+  }));
 }
 
 function chamadasDoFiltro() {
@@ -619,6 +698,7 @@ function desenharIndicadores() {
 async function abrirIndicador(voto) {
   try {
     await carregar();
+    if (voto) await carregarSumulas();
     preencherFiltros();
     selecionarIndicador(voto);
     filtrosIndicadores.hidden = false;
@@ -637,12 +717,23 @@ async function abrirIndicador(voto) {
 abrirVoto.addEventListener("click", () => abrirIndicador(true));
 abrirPresencaIndicador.addEventListener("click", () => abrirIndicador(false));
 
-filtroMes.addEventListener("change", () => {
+filtrosIndicadores.addEventListener("change", () => {
   if (chamadas) desenharIndicadores();
 });
 
-filtroAno.addEventListener("change", () => {
-  if (chamadas) desenharIndicadores();
+document.addEventListener("click", () => {
+  filtrosIndicadores.querySelectorAll(".menu-multiplo-lista").forEach((lista) => {
+    lista.hidden = true;
+    lista.previousElementSibling.setAttribute("aria-expanded", "false");
+  });
+});
+
+document.addEventListener("keydown", (evento) => {
+  if (evento.key !== "Escape") return;
+  filtrosIndicadores.querySelectorAll(".menu-multiplo-lista").forEach((lista) => {
+    lista.hidden = true;
+    lista.previousElementSibling.setAttribute("aria-expanded", "false");
+  });
 });
 
 anterior.addEventListener("click", () => {
